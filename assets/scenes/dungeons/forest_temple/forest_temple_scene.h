@@ -1,0 +1,26 @@
+extern RomFile forest_temple_sceneRoomList0x0001E4[];
+extern TransitionActorEntry forest_temple_sceneTransitionActorList0x000068[];
+extern EntranceEntry forest_temple_sceneEntranceList0x000274[];
+extern ActorEntry forest_temple_sceneStartPositionList0x000058[];
+extern u16 forest_temple_sceneExitList0x000278[];
+extern LightSettings forest_temple_sceneLightSettings0x00027C[];
+
+
+
+
+
+extern ActorEntry forest_temple_sceneStartPositionList0x000058[];
+extern TransitionActorEntry forest_temple_sceneTransitionActorList0x000068[];
+extern RomFile forest_temple_sceneRoomList0x0001E4[];
+extern EntranceEntry forest_temple_sceneEntranceList0x000274[3];
+extern u16 forest_temple_sceneExitList0x000278[2];
+extern LightSettings forest_temple_sceneLightSettings0x00027C[4];
+extern CamData forest_temple_sceneCollisionHeader0x01AE94_camDataList_000002E0[1];
+extern u32 forest_temple_sceneCollisionHeader0x01AE94_polygonTypes_000002E8[];
+extern CollisionPoly forest_temple_sceneCollisionHeader0x01AE94_polygons_00000318[];
+extern Vec3s forest_temple_sceneCollisionHeader0x01AE94_vtx_00014C18[];
+extern CollisionHeader forest_temple_sceneCollisionHeader0x01AE94;
+extern u64 forest_temple_sceneTex_01AEC0[];
+extern u64 forest_temple_sceneTex_01B6C0[];
+extern u64 forest_temple_sceneTex_01C6C0[];
+

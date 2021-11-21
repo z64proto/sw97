@@ -1,0 +1,12 @@
+extern MeshHeader1Single pr_kokiri_house_2_room_00MeshHeader0x0051C0;
+s16 pr_kokiri_house_2_room_00ObjectList0x000048[];
+extern ActorEntry pr_kokiri_house_2_room_00ActorList0x000060[1];
+
+
+
+
+
+extern s16 pr_kokiri_house_2_room_00ObjectList0x000048[11];
+extern ActorEntry pr_kokiri_house_2_room_00ActorList0x000060[1];
+extern MeshHeader1Single pr_kokiri_house_2_room_00MeshHeader0x0051C0;
+

@@ -1,0 +1,8 @@
+<Root>
+	<File Name="chamber_of_sages_scene" Game="SW97">
+		<Scene Name="chamber_of_sages_scene"/>
+	</File>
+	<File Name="chamber_of_sages_room_00" Game="SW97">
+		<Room Name="chamber_of_sages_room_00"/>
+	</File>
+</Root>

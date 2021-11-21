@@ -1,0 +1,8 @@
+<Root>
+	<File Name="death_mountain_crater_scene" Game="SW97">
+		<Scene Name="death_mountain_crater_scene"/>
+	</File>
+	<File Name="death_mountain_crater_room_00" Game="SW97">
+		<Room Name="death_mountain_crater_room_00"/>
+	</File>
+</Root>

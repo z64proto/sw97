@@ -1,0 +1,25 @@
+extern RomFile hyrule_castle_sceneRoomList0x000060[];
+extern EntranceEntry hyrule_castle_sceneEntranceList0x000068[];
+extern ActorEntry hyrule_castle_sceneStartPositionList0x000050[];
+extern u16 hyrule_castle_sceneExitList0x00006C[];
+extern LightSettings hyrule_castle_sceneLightSettings0x000070[];
+
+
+
+
+
+extern ActorEntry hyrule_castle_sceneStartPositionList0x000050[];
+extern RomFile hyrule_castle_sceneRoomList0x000060[];
+extern EntranceEntry hyrule_castle_sceneEntranceList0x000068[2];
+extern u16 hyrule_castle_sceneExitList0x00006C[2];
+extern LightSettings hyrule_castle_sceneLightSettings0x000070[8];
+extern CamData hyrule_castle_sceneCollisionHeader0x0029C0_camDataList_00000120[3];
+extern u32 hyrule_castle_sceneCollisionHeader0x0029C0_polygonTypes_00000138[];
+extern CollisionPoly hyrule_castle_sceneCollisionHeader0x0029C0_polygons_00000178[];
+extern Vec3s hyrule_castle_sceneCollisionHeader0x0029C0_vtx_00001FC8[];
+extern WaterBox hyrule_castle_sceneCollisionHeader0x0029C0_waterBoxes_000029B4[];
+extern CollisionHeader hyrule_castle_sceneCollisionHeader0x0029C0;
+extern u64 hyrule_castle_sceneTex_0029F0[];
+extern u64 hyrule_castle_sceneTex_0031F0[];
+extern u64 hyrule_castle_sceneTex_0041F0[];
+

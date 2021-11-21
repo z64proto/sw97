@@ -1,0 +1,19 @@
+extern RomFile lod_test_sceneRoomList0x000048[];
+extern EntranceEntry lod_test_sceneEntranceList0x000050[];
+extern ActorEntry lod_test_sceneStartPositionList0x000038[];
+extern LightSettings lod_test_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry lod_test_sceneStartPositionList0x000038[];
+extern RomFile lod_test_sceneRoomList0x000048[];
+extern EntranceEntry lod_test_sceneEntranceList0x000050[2];
+extern LightSettings lod_test_sceneLightSettings0x000054[4];
+extern CamData lod_test_sceneCollisionHeader0x0001CC_camDataList_000000B0[1];
+extern SurfaceType lod_test_sceneCollisionHeader0x0001CC_surfaceType_000000B8[];
+extern CollisionPoly lod_test_sceneCollisionHeader0x0001CC_polygons_000000C0[];
+extern Vec3s lod_test_sceneCollisionHeader0x0001CC_vtx_00000170[];
+extern CollisionHeader lod_test_sceneCollisionHeader0x0001CC;
+

@@ -1,0 +1,27 @@
+extern AnimationHeader gZelda2Anime1Anim_0003BC;
+extern AnimationHeader gZelda2Anime1Anim_000A50;
+extern AnimationHeader gZelda2Anime1Anim_000EB0;
+extern AnimationHeader gZelda2Anime1Anim_001010;
+extern AnimationHeader gZelda2Anime1Anim_0013A0;
+extern AnimationHeader gZelda2Anime1Anim_001670;
+extern AnimationHeader gZelda2Anime1Anim_001B48;
+extern AnimationHeader gZelda2Anime1Anim_0022D0;
+extern AnimationHeader gZelda2Anime1Anim_002750;
+extern AnimationHeader gZelda2Anime1Anim_002B14;
+extern AnimationHeader gZelda2Anime1Anim_002F30;
+extern AnimationHeader gZelda2Anime1Anim_00325C;
+extern AnimationHeader gZelda2Anime1Anim_003538;
+extern AnimationHeader gZelda2Anime1Anim_004900;
+extern AnimationHeader gZelda2Anime1Anim_005F40;
+extern AnimationHeader gZelda2Anime1Anim_006778;
+extern AnimationHeader gZelda2Anime1Anim_007D0C;
+extern AnimationHeader gZelda2Anime1Anim_0087B8;
+extern AnimationHeader gZelda2Anime1Anim_0090D8;
+extern AnimationHeader gZelda2Anime1Anim_009AD4;
+extern AnimationHeader gZelda2Anime1Anim_00A15C;
+extern AnimationHeader gZelda2Anime1Anim_00A79C;
+extern AnimationHeader gZelda2Anime1Anim_00AAD4;
+extern AnimationHeader gZelda2Anime1Anim_00AFE0;
+extern AnimationHeader gZelda2Anime1Anim_00B224;
+extern AnimationHeader gZelda2Anime1Anim_00B5FC;
+

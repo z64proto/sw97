@@ -1,0 +1,22 @@
+extern RomFile pr_kokiri_house_2_sceneRoomList0x000060[];
+extern EntranceEntry pr_kokiri_house_2_sceneEntranceList0x000068[];
+extern ActorEntry pr_kokiri_house_2_sceneStartPositionList0x000050[];
+extern u16 pr_kokiri_house_2_sceneExitList0x00006C[];
+extern LightSettings pr_kokiri_house_2_sceneLightSettings0x000070[];
+
+
+
+
+
+extern ActorEntry pr_kokiri_house_2_sceneStartPositionList0x000050[];
+extern RomFile pr_kokiri_house_2_sceneRoomList0x000060[];
+extern EntranceEntry pr_kokiri_house_2_sceneEntranceList0x000068[2];
+extern u16 pr_kokiri_house_2_sceneExitList0x00006C[2];
+extern LightSettings pr_kokiri_house_2_sceneLightSettings0x000070[1];
+extern Vec3s pr_kokiri_house_2_sceneCollisionHeader0x000C04_camPosData_00000090[6];
+extern CamData pr_kokiri_house_2_sceneCollisionHeader0x000C04_camDataList_000000B4[3];
+extern u32 pr_kokiri_house_2_sceneCollisionHeader0x000C04_polygonTypes_000000CC[];
+extern CollisionPoly pr_kokiri_house_2_sceneCollisionHeader0x000C04_polygons_000000E4[];
+extern Vec3s pr_kokiri_house_2_sceneCollisionHeader0x000C04_vtx_00000944[];
+extern CollisionHeader pr_kokiri_house_2_sceneCollisionHeader0x000C04;
+

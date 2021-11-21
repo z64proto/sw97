@@ -1,0 +1,19 @@
+extern RomFile old_sutaru_sceneRoomList0x000058[];
+extern EntranceEntry old_sutaru_sceneEntranceList0x000060[];
+extern ActorEntry old_sutaru_sceneStartPositionList0x000048[];
+extern LightSettings old_sutaru_sceneLightSettings0x000064[];
+
+
+
+
+
+extern ActorEntry old_sutaru_sceneStartPositionList0x000048[];
+extern RomFile old_sutaru_sceneRoomList0x000058[];
+extern EntranceEntry old_sutaru_sceneEntranceList0x000060[2];
+extern LightSettings old_sutaru_sceneLightSettings0x000064[4];
+extern CamData old_sutaru_sceneCollisionHeader0x000B68_camDataList_000000C0[2];
+extern u32 old_sutaru_sceneCollisionHeader0x000B68_polygonTypes_000000D0[];
+extern CollisionPoly old_sutaru_sceneCollisionHeader0x000B68_polygons_000000E0[];
+extern Vec3s old_sutaru_sceneCollisionHeader0x000B68_vtx_000008C0[];
+extern CollisionHeader old_sutaru_sceneCollisionHeader0x000B68;
+

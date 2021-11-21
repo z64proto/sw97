@@ -1,0 +1,17 @@
+extern u64 gLinkAdultFPRightHandDL_gauntlet_hand_ci8_ci8[];
+extern u64 gLinkAdultFPRightHandDL_gauntlet_hand_ci8_ci8_pal_rgba16[];
+extern u64 gLinkAdultFPRightHandDL_gauntlet_forearm_hand_ci8_ci8[];
+extern u64 gLinkAdultFPRightHandDL_gauntlet_forearm_hand_ci8_ci8_pal_rgba16[];
+extern u64 gLinkAdultFPRightHandDL_hand_ci8_ci8[];
+extern u64 gLinkAdultFPRightHandDL_hand_ci8_ci8_pal_rgba16[];
+extern Vtx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_vtx_0[49];
+extern Gfx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_vtx_1[16];
+extern Gfx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_vtx_2[40];
+extern Gfx gLinkAdultFPRightHandDL_gLinkAdultFPRightHandDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gLinkAdultFPRightHandDL_HandSide_layerOpaque[];
+extern Gfx mat_gLinkAdultFPRightHandDL_HandTop_layerOpaque[];
+extern Gfx mat_gLinkAdultFPRightHandDL_Hand_layerOpaque[];
+extern Gfx gLinkAdultFPRightHandDL[];

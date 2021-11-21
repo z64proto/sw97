@@ -1,0 +1,24 @@
+extern RomFile gerudo_valley_sceneRoomList0x000090[];
+extern EntranceEntry gerudo_valley_sceneEntranceList0x000098[];
+extern ActorEntry gerudo_valley_sceneStartPositionList0x000050[];
+extern u16 gerudo_valley_sceneExitList0x0000A0[];
+extern LightSettings gerudo_valley_sceneLightSettings0x0000A8[];
+
+
+
+
+
+extern ActorEntry gerudo_valley_sceneStartPositionList0x000050[];
+extern RomFile gerudo_valley_sceneRoomList0x000090[];
+extern EntranceEntry gerudo_valley_sceneEntranceList0x000098[4];
+extern u16 gerudo_valley_sceneExitList0x0000A0[4];
+extern LightSettings gerudo_valley_sceneLightSettings0x0000A8[8];
+extern CamData gerudo_valley_sceneCollisionHeader0x0052DC_camDataList_00000160[2];
+extern u32 gerudo_valley_sceneCollisionHeader0x0052DC_polygonTypes_00000170[];
+extern CollisionPoly gerudo_valley_sceneCollisionHeader0x0052DC_polygons_00000198[];
+extern Vec3s gerudo_valley_sceneCollisionHeader0x0052DC_vtx_00003EE8[];
+extern WaterBox gerudo_valley_sceneCollisionHeader0x0052DC_waterBoxes_000052D0[];
+extern CollisionHeader gerudo_valley_sceneCollisionHeader0x0052DC;
+extern u64 gerudo_valley_sceneTex_005310[];
+extern u64 gerudo_valley_sceneTex_006310[];
+

@@ -1,0 +1,74 @@
+extern MeshHeader0 fire_temple_room_13MeshHeader0x000110;
+extern MeshEntry0 fire_temple_room_13MeshDListEntry0x00011C[1];
+extern Gfx dlist0x01A750[];
+extern Gfx dlist0x000FB0[];
+extern u64 fire_temple_room_13Tex_001468[];
+extern u64 fire_temple_room_13Tex_001C68[];
+extern u64 fire_temple_room_13Tex_002C68[];
+extern u64 fire_temple_room_13Tex_003C68[];
+extern u64 fire_temple_room_13Tex_004C68[];
+extern Gfx dlist0x0064E8[];
+extern u64 fire_temple_room_13Tex_006A50[];
+extern u64 fire_temple_room_13Tex_007250[];
+extern u64 fire_temple_room_13Tex_008250[];
+extern u64 fire_temple_room_13Tex_009250[];
+extern u64 fire_temple_room_13Tex_00A250[];
+extern u64 fire_temple_room_13Tex_00AA50[];
+extern Gfx dlist0x00C380[];
+extern u64 fire_temple_room_13Tex_00C890[];
+extern u64 fire_temple_room_13Tex_00D090[];
+extern u64 fire_temple_room_13Tex_00E090[];
+extern u64 fire_temple_room_13Tex_00F090[];
+extern u64 fire_temple_room_13Tex_010090[];
+extern Gfx dlist0x011820[];
+extern u64 fire_temple_room_13Tex_011D08[];
+extern u64 fire_temple_room_13Tex_012508[];
+extern u64 fire_temple_room_13Tex_013508[];
+extern u64 fire_temple_room_13Tex_014508[];
+extern u64 fire_temple_room_13Tex_015508[];
+extern Gfx dlist0x017278[];
+extern u64 fire_temple_room_13Tex_017750[];
+extern u64 fire_temple_room_13Tex_018750[];
+extern u64 fire_temple_room_13Tex_019750[];
+s16 fire_temple_room_13ObjectList0x000038[];
+extern ActorEntry fire_temple_room_13ActorList0x00003C[13];
+
+
+
+
+
+extern s16 fire_temple_room_13ObjectList0x000038[2];
+extern ActorEntry fire_temple_room_13ActorList0x00003C[13];
+extern MeshHeader0 fire_temple_room_13MeshHeader0x000110;
+extern MeshEntry0 fire_temple_room_13MeshDListEntry0x00011C[1];
+extern Gfx fire_temple_room_13Dlist0x000FB0[];
+extern u64 fire_temple_room_13Tex_001468[];
+extern u64 fire_temple_room_13Tex_001C68[];
+extern u64 fire_temple_room_13Tex_002C68[];
+extern u64 fire_temple_room_13Tex_003C68[];
+extern u64 fire_temple_room_13Tex_004C68[];
+extern Gfx fire_temple_room_13Dlist0x0064E8[];
+extern u64 fire_temple_room_13Tex_006A50[];
+extern u64 fire_temple_room_13Tex_007250[];
+extern u64 fire_temple_room_13Tex_008250[];
+extern u64 fire_temple_room_13Tex_009250[];
+extern u64 fire_temple_room_13Tex_00A250[];
+extern u64 fire_temple_room_13Tex_00AA50[];
+extern Gfx fire_temple_room_13Dlist0x00C380[];
+extern u64 fire_temple_room_13Tex_00C890[];
+extern u64 fire_temple_room_13Tex_00D090[];
+extern u64 fire_temple_room_13Tex_00E090[];
+extern u64 fire_temple_room_13Tex_00F090[];
+extern u64 fire_temple_room_13Tex_010090[];
+extern Gfx fire_temple_room_13Dlist0x011820[];
+extern u64 fire_temple_room_13Tex_011D08[];
+extern u64 fire_temple_room_13Tex_012508[];
+extern u64 fire_temple_room_13Tex_013508[];
+extern u64 fire_temple_room_13Tex_014508[];
+extern u64 fire_temple_room_13Tex_015508[];
+extern Gfx fire_temple_room_13Dlist0x017278[];
+extern u64 fire_temple_room_13Tex_017750[];
+extern u64 fire_temple_room_13Tex_018750[];
+extern u64 fire_temple_room_13Tex_019750[];
+extern Gfx fire_temple_room_13Dlist0x01A750[];
+

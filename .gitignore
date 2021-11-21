@@ -1,0 +1,48 @@
+# Cache files
+__pycache__/
+.pyc
+.DS_Store
+
+# Text editor remnants
+.vscode/
+.vs/
+.idea/
+CMakeLists.txt
+cmake-build-debug
+venv/
+
+# Project-specific ignores
+build/
+expected/
+notes/
+docs/doxygen/
+vc/
+*.elf
+*.sra
+*.z64
+*.n64
+*.v64
+*.map
+*.dump
+*.wad
+out.txt
+
+# Tool artifacts
+tools/mipspro7.2_compiler/
+tools/overlayhelpers/batchdisasm/output/*
+tools/overlayhelpers/batchdisasm/output2/*
+tools/overlayhelpers/batchdisasm/mipsdisasm/*
+tools/disasm/output/*
+tools/asmsplitter/asm/*
+tools/asmsplitter/c/*
+ctx.c
+tools/*dSYM/
+
+# Assets
+!*_custom*
+
+# Per-user configuration
+.python-version
+
+# zzrtl
+cache/

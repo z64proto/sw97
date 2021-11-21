@@ -1,0 +1,19 @@
+extern u64 gSignDl_b1t_rgba16[];
+extern u64 gSignDl_b2_rgba16[];
+extern u64 gSignDl_b4_rgba16[];
+extern u64 gSignDl_b3_rgba16[];
+extern Vtx gSignDl_Signbeta_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gSignDl_Signbeta_mesh_layer_Opaque_vtx_0[8];
+extern Gfx gSignDl_Signbeta_mesh_layer_Opaque_tri_0[];
+extern Vtx gSignDl_Signbeta_mesh_layer_Opaque_vtx_1[50];
+extern Gfx gSignDl_Signbeta_mesh_layer_Opaque_tri_1[];
+extern Vtx gSignDl_Signbeta_mesh_layer_Opaque_vtx_2[12];
+extern Gfx gSignDl_Signbeta_mesh_layer_Opaque_tri_2[];
+extern Vtx gSignDl_Signbeta_mesh_layer_Opaque_vtx_3[9];
+extern Gfx gSignDl_Signbeta_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gSignDl__07___Default_f3d_layerOpaque[];
+extern Gfx mat_gSignDl__01___Default_f3d_layerOpaque[];
+extern Gfx mat_gSignDl__03___Default_f3d_layerOpaque[];
+extern Gfx mat_gSignDl__02___Default_f3d_layerOpaque[];
+extern Gfx gSignDl[];
+

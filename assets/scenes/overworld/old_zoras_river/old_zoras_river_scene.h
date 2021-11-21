@@ -1,0 +1,25 @@
+extern RomFile old_zoras_river_sceneRoomList0x000070[];
+extern EntranceEntry old_zoras_river_sceneEntranceList0x000078[];
+extern ActorEntry old_zoras_river_sceneStartPositionList0x000050[];
+extern u16 old_zoras_river_sceneExitList0x00007C[];
+extern LightSettings old_zoras_river_sceneLightSettings0x000080[];
+
+
+
+
+
+extern ActorEntry old_zoras_river_sceneStartPositionList0x000050[];
+extern RomFile old_zoras_river_sceneRoomList0x000070[];
+extern EntranceEntry old_zoras_river_sceneEntranceList0x000078[2];
+extern u16 old_zoras_river_sceneExitList0x00007C[2];
+extern LightSettings old_zoras_river_sceneLightSettings0x000080[4];
+extern CamData old_zoras_river_sceneCollisionHeader0x000E48_camDataList_000000E0[1];
+extern u32 old_zoras_river_sceneCollisionHeader0x000E48_polygonTypes_000000E8[];
+extern CollisionPoly old_zoras_river_sceneCollisionHeader0x000E48_polygons_00000118[];
+extern Vec3s old_zoras_river_sceneCollisionHeader0x000E48_vtx_00000C18[];
+extern CollisionHeader old_zoras_river_sceneCollisionHeader0x000E48;
+extern u64 old_zoras_river_sceneTex_000E80[];
+extern u64 old_zoras_river_sceneTex_001680[];
+extern u64 old_zoras_river_sceneTex_001E80[];
+extern u64 old_zoras_river_sceneTex_002680[];
+

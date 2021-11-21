@@ -1,0 +1,6 @@
+<Root>
+    <File Name="hatadult_z64convert" Segment="6">
+        <DList Name="gLinkAdultPhysicsHat_HatMatDL" Offset="0x100"/>
+        <DList Name="gLinkAdultPhysicsHatDL" Offset="0x4B0"/>
+    </File>
+</Root>

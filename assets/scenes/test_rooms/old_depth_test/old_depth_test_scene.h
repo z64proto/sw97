@@ -1,0 +1,20 @@
+extern RomFile old_depth_test_sceneRoomList0x000048[];
+extern EntranceEntry old_depth_test_sceneEntranceList0x000050[];
+extern ActorEntry old_depth_test_sceneStartPositionList0x000038[];
+extern LightSettings old_depth_test_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry old_depth_test_sceneStartPositionList0x000038[];
+extern RomFile old_depth_test_sceneRoomList0x000048[];
+extern EntranceEntry old_depth_test_sceneEntranceList0x000050[2];
+extern LightSettings old_depth_test_sceneLightSettings0x000054[4];
+extern Vec3s old_depth_test_sceneCollisionHeader0x0002D4_camPosData_000000B0[3];
+extern CamData old_depth_test_sceneCollisionHeader0x0002D4_camDataList_000000C4[2];
+extern u32 old_depth_test_sceneCollisionHeader0x0002D4_polygonTypes_000000D4[];
+extern CollisionPoly old_depth_test_sceneCollisionHeader0x0002D4_polygons_000000DC[];
+extern Vec3s old_depth_test_sceneCollisionHeader0x0002D4_vtx_000001FC[];
+extern CollisionHeader old_depth_test_sceneCollisionHeader0x0002D4;
+

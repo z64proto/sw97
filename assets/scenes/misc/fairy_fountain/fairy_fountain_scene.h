@@ -1,0 +1,22 @@
+extern RomFile fairy_fountain_sceneRoomList0x000048[];
+extern EntranceEntry fairy_fountain_sceneEntranceList0x000050[];
+extern ActorEntry fairy_fountain_sceneStartPositionList0x000038[];
+extern LightSettings fairy_fountain_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry fairy_fountain_sceneStartPositionList0x000038[];
+extern RomFile fairy_fountain_sceneRoomList0x000048[];
+extern EntranceEntry fairy_fountain_sceneEntranceList0x000050[2];
+extern LightSettings fairy_fountain_sceneLightSettings0x000054[4];
+extern CamData fairy_fountain_sceneCollisionHeader0x001D6C_camDataList_000000B0[1];
+extern u32 fairy_fountain_sceneCollisionHeader0x001D6C_polygonTypes_000000B8[];
+extern CollisionPoly fairy_fountain_sceneCollisionHeader0x001D6C_polygons_000000C8[];
+extern Vec3s fairy_fountain_sceneCollisionHeader0x001D6C_vtx_00001698[];
+extern CollisionHeader fairy_fountain_sceneCollisionHeader0x001D6C;
+extern u64 fairy_fountain_sceneTex_001DA0[];
+extern u64 fairy_fountain_sceneTex_002DA0[];
+extern u64 fairy_fountain_sceneTex_0035A0[];
+

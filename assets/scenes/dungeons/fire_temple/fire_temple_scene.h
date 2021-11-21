@@ -1,0 +1,25 @@
+extern RomFile fire_temple_sceneRoomList0x0001D0[];
+extern TransitionActorEntry fire_temple_sceneTransitionActorList0x000080[];
+extern EntranceEntry fire_temple_sceneEntranceList0x000240[];
+extern ActorEntry fire_temple_sceneStartPositionList0x000050[];
+extern LightSettings fire_temple_sceneLightSettings0x000248[];
+
+
+
+
+
+extern ActorEntry fire_temple_sceneStartPositionList0x000050[];
+extern TransitionActorEntry fire_temple_sceneTransitionActorList0x000080[];
+extern RomFile fire_temple_sceneRoomList0x0001D0[];
+extern EntranceEntry fire_temple_sceneEntranceList0x000240[4];
+extern LightSettings fire_temple_sceneLightSettings0x000248[4];
+extern CamData fire_temple_sceneCollisionHeader0x017544_camDataList_000002A0[1];
+extern u32 fire_temple_sceneCollisionHeader0x017544_polygonTypes_000002A8[];
+extern CollisionPoly fire_temple_sceneCollisionHeader0x017544_polygons_000002C0[];
+extern Vec3s fire_temple_sceneCollisionHeader0x017544_vtx_00012400[];
+extern CollisionHeader fire_temple_sceneCollisionHeader0x017544;
+extern u64 fire_temple_sceneTex_017570[];
+extern u64 fire_temple_sceneTex_017D70[];
+extern u64 fire_temple_sceneTex_018570[];
+extern u64 fire_temple_sceneTex_018D70[];
+

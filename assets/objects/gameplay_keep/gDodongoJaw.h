@@ -1,0 +1,13 @@
+extern u64 gDodongoJaw_dodongos_cavern_room_00Tex_0119E8_rgb5a1_png_rgba16[];
+extern Vtx gDodongoJaw_gJawDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDodongoJaw_gJawDL_mesh_mesh_layer_Opaque_vtx_0[118];
+extern Gfx gDodongoJaw_gJawDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Vtx gDodongoJaw_gJawDL_mesh_mesh_layer_Opaque_vtx_1[8];
+extern Gfx gDodongoJaw_gJawDL_mesh_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDodongoJaw_f3d_material_003_layerOpaque[];
+extern Gfx mat_gDodongoJaw_f3d_material_002_layerOpaque[];
+extern Gfx gDodongoJaw[];
+extern u32 gDodongoJawCol_polygonTypes[];
+extern CollisionPoly gDodongoJawCol_polygons[];
+extern Vec3s gDodongoJawCol_vertices[56];
+extern CollisionHeader gDodongoJawCol_collisionHeader;

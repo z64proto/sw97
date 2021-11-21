@@ -1,0 +1,14 @@
+<Root>
+	<File Name="unfinished_fire_temple_scene" Game="SW97">
+		<Scene Name="unfinished_fire_temple_scene"/>
+	</File>
+	<File Name="unfinished_fire_temple_room_00" Game="SW97">
+		<Room Name="unfinished_fire_temple_room_00"/>
+	</File>
+	<File Name="unfinished_fire_temple_room_01" Game="SW97">
+		<Room Name="unfinished_fire_temple_room_01"/>
+	</File>
+	<File Name="unfinished_fire_temple_room_02" Game="SW97">
+		<Room Name="unfinished_fire_temple_room_02"/>
+	</File>
+</Root>

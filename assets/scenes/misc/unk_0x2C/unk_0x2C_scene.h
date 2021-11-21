@@ -1,0 +1,19 @@
+extern RomFile unk_0x2C_sceneRoomList0x000048[];
+extern EntranceEntry unk_0x2C_sceneEntranceList0x000050[];
+extern ActorEntry unk_0x2C_sceneStartPositionList0x000038[];
+extern LightSettings unk_0x2C_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry unk_0x2C_sceneStartPositionList0x000038[];
+extern RomFile unk_0x2C_sceneRoomList0x000048[];
+extern EntranceEntry unk_0x2C_sceneEntranceList0x000050[2];
+extern LightSettings unk_0x2C_sceneLightSettings0x000054[4];
+extern CamData unk_0x2C_sceneCollisionHeader0x000F18_camDataList_000000B0[1];
+extern SurfaceType unk_0x2C_sceneCollisionHeader0x000F18_surfaceType_000000B8[];
+extern CollisionPoly unk_0x2C_sceneCollisionHeader0x000F18_polygons_000000C0[];
+extern Vec3s unk_0x2C_sceneCollisionHeader0x000F18_vtx_00000CA0[];
+extern CollisionHeader unk_0x2C_sceneCollisionHeader0x000F18;
+

@@ -1,0 +1,8 @@
+<Root>
+	<File Name="kokiri_forest_scene" Game="SW97">
+		<Scene Name="kokiri_forest_scene"/>
+	</File>
+	<File Name="kokiri_forest_room_00" Game="SW97">
+		<Room Name="kokiri_forest_room_00"/>
+	</File>
+</Root>

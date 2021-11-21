@@ -1,0 +1,216 @@
+#include "ultra64.h"
+#include "z64.h"
+#include "macros.h"
+#include "object_triforce_spot.h"
+
+static Vtx object_triforce_spotVtx_000200[32];
+static Vtx object_triforce_spotVtx_000400[22];
+static Vtx object_triforce_spotVtx_000560[10];
+
+Vtx gTriforceVtx[32] = {
+VTX(1, 930, 135, 1536, 2884, 17, 48, 108, 232),
+VTX(423, 263, 102, 804, 2994, 107, 253, 53, 80),
+VTX(17, 968, 102, 1521, 2958, 69, 88, 43, 255),
+VTX(-382, 267, 135, 234, 2948, 206, 247, 108, 124),
+VTX(1, 930, 135, -512, 2884, 17, 48, 108, 232),
+VTX(-15, 968, 102, -499, 2958, 205, 94, 53, 255),
+VTX(382, 268, 135, 790, 2948, 33, 217, 108, 60),
+VTX(-406, 235, 102, 239, 2995, 200, 165, 53, 50),
+VTX(407, 236, 102, 785, 2995, 42, 153, 43, 50),
+VTX(-15, 968, 102, 1549, 2958, 205, 94, 53, 255),
+VTX(-422, 262, 102, 221, 2994, 145, 15, 43, 124),
+VTX(-382, 267, -140, 234, 3196, 223, 217, 148, 50),
+VTX(407, 236, -108, 785, 3149, 56, 165, 203, 50),
+VTX(-406, 235, -108, 239, 3149, 214, 153, 213, 50),
+VTX(1, 930, -140, -512, 3260, 239, 48, 148, 58),
+VTX(-422, 262, -108, 221, 3150, 149, 253, 203, 50),
+VTX(382, 268, -140, 790, 3196, 50, 247, 148, 50),
+VTX(17, 968, -108, 1521, 3186, 51, 94, 203, 190),
+VTX(423, 263, -108, 804, 3150, 111, 15, 213, 50),
+VTX(-15, 968, -108, -499, 3186, 187, 88, 213, 194),
+VTX(1, 930, -140, 1536, 3260, 239, 48, 148, 58),
+VTX(-15, 968, -108, 1549, 3186, 187, 88, 213, 194),
+VTX(-422, 197, 135, 1536, 2884, 17, 48, 108, 232),
+VTX(-1, -470, 102, 804, 2994, 107, 253, 53, 80),
+VTX(-406, 235, 102, 1521, 2958, 69, 88, 43, 255),
+VTX(-805, -466, 135, 234, 2948, 206, 247, 108, 124),
+VTX(-422, 197, 135, -512, 2884, 17, 48, 108, 232),
+VTX(-438, 235, 102, -499, 2958, 205, 94, 53, 255),
+VTX(-41, -465, 135, 790, 2948, 33, 217, 108, 60),
+VTX(-829, -499, 102, 239, 2995, 200, 165, 53, 50),
+VTX(-16, -498, 102, 785, 2995, 42, 153, 43, 50),
+VTX(-438, 235, 102, 1549, 2958, 205, 94, 53, 255)
+}; 
+
+static Vtx object_triforce_spotVtx_000200[32] = {
+    VTX(-438, 235, 102, -499, 2958, 205, 94, 53, 255),
+    VTX(-845, -471, 102, 221, 2994, 145, 15, 43, 124),
+    VTX(-805, -466, 135, 234, 2948, 206, 247, 108, 124),
+    VTX(-1, -470, 102, 804, 2994, 107, 253, 53, 80),
+    VTX(-422, 197, 135, 1536, 2884, 17, 48, 108, 232),
+    VTX(-41, -465, 135, 790, 2948, 33, 217, 108, 60),
+    VTX(-16, -498, 102, 785, 2995, 42, 153, 43, 50),
+    VTX(-829, -499, 102, 239, 2995, 200, 165, 53, 50),
+    VTX(-422, 197, 135, -512, 2884, 17, 48, 108, 232),
+    VTX(-805, -466, -140, 234, 3196, 223, 217, 148, 50),
+    VTX(-16, -498, -108, 785, 3149, 56, 165, 203, 50),
+    VTX(-829, -499, -108, 239, 3149, 214, 153, 213, 50),
+    VTX(-422, 197, -140, -512, 3260, 239, 48, 148, 58),
+    VTX(-845, -471, -108, 221, 3150, 149, 253, 203, 50),
+    VTX(-41, -465, -140, 790, 3196, 50, 247, 148, 50),
+    VTX(-406, 235, -108, 1521, 3186, 51, 94, 203, 190),
+    VTX(-1, -470, -108, 804, 3150, 111, 15, 213, 50),
+    VTX(-438, 235, -108, -499, 3186, 187, 88, 213, 194),
+    VTX(-422, 197, -140, 1536, 3260, 239, 48, 148, 58),
+    VTX(-438, 235, -108, 1549, 3186, 187, 88, 213, 194),
+    VTX(-406, 235, 102, 1521, 2958, 69, 88, 43, 255),
+    VTX(-438, 235, 102, 1549, 2958, 205, 94, 53, 255),
+    VTX(422, 198, 135, 1536, 2884, 17, 48, 108, 232),
+    VTX(844, -469, 102, 804, 2994, 107, 253, 53, 80),
+    VTX(439, 236, 102, 1521, 2958, 69, 88, 43, 255),
+    VTX(40, -465, 135, 234, 2948, 206, 247, 108, 124),
+    VTX(422, 198, 135, -512, 2884, 17, 48, 108, 232),
+    VTX(407, 236, 102, -499, 2958, 205, 94, 53, 255),
+    VTX(804, -464, 135, 790, 2948, 33, 217, 108, 60),
+    VTX(15, -498, 102, 239, 2995, 200, 165, 53, 50),
+    VTX(828, -497, 102, 785, 2995, 42, 153, 43, 50),
+    VTX(407, 236, 102, 1549, 2958, 205, 94, 53, 255),
+}; 
+
+static Vtx object_triforce_spotVtx_000400[22] = {
+    VTX(407, 236, 102, -499, 2958, 205, 94, 53, 255),
+    VTX(-1, -470, 102, 221, 2994, 145, 15, 43, 124),
+    VTX(40, -465, 135, 234, 2948, 206, 247, 108, 124),
+    VTX(844, -469, 102, 804, 2994, 107, 253, 53, 80),
+    VTX(422, 198, 135, 1536, 2884, 17, 48, 108, 232),
+    VTX(804, -464, 135, 790, 2948, 33, 217, 108, 60),
+    VTX(828, -497, 102, 785, 2995, 42, 153, 43, 50),
+    VTX(15, -498, 102, 239, 2995, 200, 165, 53, 50),
+    VTX(422, 198, 135, -512, 2884, 17, 48, 108, 232),
+    VTX(40, -465, -140, 234, 3196, 223, 217, 148, 50),
+    VTX(828, -497, -108, 785, 3149, 56, 165, 203, 50),
+    VTX(15, -498, -108, 239, 3149, 214, 153, 213, 50),
+    VTX(422, 198, -140, -512, 3260, 239, 48, 148, 58),
+    VTX(-1, -470, -108, 221, 3150, 149, 253, 203, 50),
+    VTX(804, -464, -140, 790, 3196, 50, 247, 148, 50),
+    VTX(439, 236, -108, 1521, 3186, 51, 94, 203, 190),
+    VTX(844, -469, -108, 804, 3150, 111, 15, 213, 50),
+    VTX(407, 236, -108, -499, 3186, 187, 88, 213, 194),
+    VTX(422, 198, -140, 1536, 3260, 239, 48, 148, 58),
+    VTX(407, 236, -108, 1549, 3186, 187, 88, 213, 194),
+    VTX(439, 236, 102, 1521, 2958, 69, 88, 43, 255),
+    VTX(407, 236, 102, 1549, 2958, 205, 94, 53, 255),
+}; 
+
+static Vtx object_triforce_spotVtx_000560[10] = {
+    VTX(960, -12150, 0, 2048, 1024, 0, 0, 120, 255),
+    VTX(-960, -2500, 0, 0, 0, 0, 0, 120, 255),
+    VTX(-960, -12150, 0, 0, 1024, 0, 0, 120, 255),
+    VTX(960, -2500, 0, 2048, 0, 0, 0, 120, 255),
+    VTX(-960, 0, 0, 0, -265, 0, 0, 120, 0),
+    VTX(960, 0, 0, 2048, -265, 0, 0, 120, 0),
+    VTX(-960, 2500, 0, 0, -531, 0, 0, 120, 255),
+    VTX(960, 2500, 0, 2048, -531, 0, 0, 120, 255),
+    VTX(-960, 12150, 0, 0, -1555, 0, 0, 120, 255),
+    VTX(960, 12150, 0, 2048, -1555, 0, 0, 120, 255),
+}; 
+
+Gfx gTriforceDL[] = {
+    gsDPPipeSync(),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(0x07D0, 0x03E8, 0, G_TX_RENDERTILE, G_ON),
+    gsDPLoadTextureBlock(gTriforceTex, G_IM_FMT_I, G_IM_SIZ_8b, 64, 64, 0, G_TX_NOMIRROR | G_TX_WRAP, G_TX_NOMIRROR | 
+                         G_TX_WRAP, 6, 6, 15, 14),
+    gsDPLoadMultiBlock(gTriforceTex, 0x0000, 1, G_IM_FMT_I, G_IM_SIZ_8b, 64, 64, 0, G_TX_NOMIRROR | G_TX_WRAP, 
+                       G_TX_NOMIRROR | G_TX_WRAP, 6, 6, 14, 13),
+    gsDPSetCombineLERP(TEXEL1, PRIMITIVE, PRIM_LOD_FRAC, TEXEL0, 0, 0, 0, PRIMITIVE, PRIMITIVE, ENVIRONMENT, COMBINED, 
+                       ENVIRONMENT, 0, 0, 0, COMBINED),
+    gsSPSetGeometryMode(G_CULL_BACK | G_FOG | G_LIGHTING | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR),
+    gsSPDisplayList(0x08000000),
+    gsSPVertex(&gTriforceVtx[0], 32, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+    gsSP2Triangles(6, 7, 8, 0, 0, 2, 9, 0),
+    gsSP2Triangles(5, 10, 3, 0, 1, 0, 6, 0),
+    gsSP2Triangles(6, 8, 1, 0, 7, 6, 3, 0),
+    gsSP2Triangles(6, 4, 3, 0, 7, 3, 10, 0),
+    gsSP2Triangles(11, 12, 13, 0, 14, 11, 15, 0),
+    gsSP2Triangles(16, 17, 18, 0, 11, 13, 15, 0),
+    gsSP2Triangles(15, 19, 14, 0, 12, 11, 16, 0),
+    gsSP2Triangles(16, 18, 12, 0, 17, 16, 20, 0),
+    gsSP2Triangles(16, 11, 14, 0, 17, 20, 21, 0),
+    gsSP2Triangles(2, 18, 17, 0, 18, 2, 1, 0),
+    gsSP2Triangles(1, 12, 18, 0, 12, 1, 8, 0),
+    gsSP2Triangles(7, 13, 8, 0, 12, 8, 13, 0),
+    gsSP2Triangles(7, 15, 13, 0, 15, 7, 10, 0),
+    gsSP2Triangles(5, 19, 10, 0, 15, 10, 19, 0),
+    gsSP2Triangles(9, 17, 21, 0, 17, 9, 2, 0),
+    gsSP2Triangles(22, 23, 24, 0, 25, 26, 27, 0),
+    gsSP2Triangles(28, 29, 30, 0, 22, 24, 31, 0),
+    gsSPVertex(&object_triforce_spotVtx_000200[0], 32, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+    gsSP2Triangles(5, 6, 3, 0, 7, 5, 2, 0),
+    gsSP2Triangles(5, 8, 2, 0, 7, 2, 1, 0),
+    gsSP2Triangles(9, 10, 11, 0, 12, 9, 13, 0),
+    gsSP2Triangles(14, 15, 16, 0, 9, 11, 13, 0),
+    gsSP2Triangles(13, 17, 12, 0, 10, 9, 14, 0),
+    gsSP2Triangles(14, 16, 10, 0, 15, 14, 18, 0),
+    gsSP2Triangles(14, 9, 12, 0, 15, 18, 19, 0),
+    gsSP2Triangles(20, 16, 15, 0, 16, 20, 3, 0),
+    gsSP2Triangles(3, 10, 16, 0, 10, 3, 6, 0),
+    gsSP2Triangles(7, 11, 6, 0, 10, 6, 11, 0),
+    gsSP2Triangles(7, 13, 11, 0, 13, 7, 1, 0),
+    gsSP2Triangles(0, 17, 1, 0, 13, 1, 17, 0),
+    gsSP2Triangles(21, 15, 19, 0, 15, 21, 20, 0),
+    gsSP2Triangles(22, 23, 24, 0, 25, 26, 27, 0),
+    gsSP2Triangles(28, 29, 30, 0, 22, 24, 31, 0),
+    gsSPVertex(&object_triforce_spotVtx_000400[0], 22, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+    gsSP2Triangles(5, 6, 3, 0, 7, 5, 2, 0),
+    gsSP2Triangles(5, 8, 2, 0, 7, 2, 1, 0),
+    gsSP2Triangles(9, 10, 11, 0, 12, 9, 13, 0),
+    gsSP2Triangles(14, 15, 16, 0, 9, 11, 13, 0),
+    gsSP2Triangles(13, 17, 12, 0, 10, 9, 14, 0),
+    gsSP2Triangles(14, 16, 10, 0, 15, 14, 18, 0),
+    gsSP2Triangles(14, 9, 12, 0, 15, 18, 19, 0),
+    gsSP2Triangles(20, 16, 15, 0, 16, 20, 3, 0),
+    gsSP2Triangles(3, 10, 16, 0, 10, 3, 6, 0),
+    gsSP2Triangles(7, 11, 6, 0, 10, 6, 11, 0),
+    gsSP2Triangles(7, 13, 11, 0, 13, 7, 1, 0),
+    gsSP2Triangles(0, 17, 1, 0, 13, 1, 17, 0),
+    gsSP2Triangles(21, 15, 19, 0, 15, 21, 20, 0),
+    gsSPEndDisplayList(),
+}; 
+
+Gfx gTriforceLightColumnDL[] = {
+    gsDPPipeSync(),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_ON),
+    gsDPLoadTextureBlock(gTriforceColumnSide1Tex, G_IM_FMT_I, G_IM_SIZ_8b, 64, 32, 0, G_TX_MIRROR | G_TX_CLAMP, 
+                         G_TX_NOMIRROR | G_TX_WRAP, 6, 5, G_TX_NOLOD, 1),
+    gsDPLoadMultiBlock(gTriforceColumnSide2Tex, 0x0100, 1, G_IM_FMT_I, G_IM_SIZ_8b, 64, 32, 0, G_TX_MIRROR | G_TX_CLAMP,
+                       G_TX_NOMIRROR | G_TX_WRAP, 6, 5, G_TX_NOLOD, G_TX_NOLOD),
+    gsDPSetCombineLERP(TEXEL1, PRIMITIVE, PRIM_LOD_FRAC, TEXEL0, TEXEL1, TEXEL0, PRIM_LOD_FRAC, TEXEL0, PRIMITIVE, 
+                       ENVIRONMENT, COMBINED, ENVIRONMENT, COMBINED, 0, SHADE, 0),
+    gsDPSetRenderMode(G_RM_PASS, G_RM_AA_ZB_XLU_SURF2),
+    gsSPClearGeometryMode(G_CULL_BACK | G_FOG | G_LIGHTING | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR),
+    gsSPDisplayList(0x09000000),
+    gsSPVertex(&object_triforce_spotVtx_000560[0], 10, 0),
+    gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+    gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
+    gsSP2Triangles(5, 6, 4, 0, 5, 7, 6, 0),
+    gsSP2Triangles(7, 8, 6, 0, 7, 9, 8, 0),
+    gsSPEndDisplayList(),
+}; 
+
+u64 gTriforceTex[] = {
+#include "assets/objects/object_triforce_spot/triforce.i8.inc.c"
+};
+
+u64 gTriforceColumnSide1Tex[] = {
+#include "assets/objects/object_triforce_spot/triforce_light_column_side_1.i8.inc.c"
+};
+
+u64 gTriforceColumnSide2Tex[] = {
+#include "assets/objects/object_triforce_spot/triforce_light_column_side_2.i8.inc.c"
+};
+
+

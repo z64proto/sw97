@@ -1,0 +1,8 @@
+<Root>
+	<File Name="unfinished_gohma_scene" Game="SW97">
+		<Scene Name="unfinished_gohma_scene"/>
+	</File>
+	<File Name="unfinished_gohma_room_00" Game="SW97">
+		<Room Name="unfinished_gohma_room_00"/>
+	</File>
+</Root>

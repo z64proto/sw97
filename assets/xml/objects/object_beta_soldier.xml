@@ -1,0 +1,11 @@
+<Root>
+    <File Name="object_beta_soldier" Segment="6">
+        <Animation Name="gBetaSoldierHitGroundAnim" Offset="0x420"/>
+        <Animation Name="gBetaSoldierSlideAnim" Offset="0x784"/>
+        <Animation Name="gBetaSoldierSlashAnim" Offset="0xB74"/>
+        <Animation Name="gBetaSoldierSlide2Anim" Offset="0xEE4"/>
+        <Skeleton Name="gBetaSoldierSkel" Type="Normal" LimbType="Standard" Offset="0x7828"/>
+        <Animation Name="gBetaSoldierSlash2Anim" Offset="0x7BE4"/>
+        <Animation Name="gBetaSoldierHitGround2Anim" Offset="0x7F78"/>
+    </File>
+</Root>

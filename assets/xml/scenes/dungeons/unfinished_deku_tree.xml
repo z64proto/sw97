@@ -1,0 +1,8 @@
+<Root>
+	<File Name="unfinished_deku_tree_scene" Game="SW97">
+		<Scene Name="unfinished_deku_tree_scene"/>
+	</File>
+	<File Name="unfinished_deku_tree_room_00" Game="SW97">
+		<Room Name="unfinished_deku_tree_room_00"/>
+	</File>
+</Root>

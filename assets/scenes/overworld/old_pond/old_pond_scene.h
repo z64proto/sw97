@@ -1,0 +1,21 @@
+extern RomFile old_pond_sceneRoomList0x000050[];
+extern EntranceEntry old_pond_sceneEntranceList0x000058[];
+extern ActorEntry old_pond_sceneStartPositionList0x000040[];
+extern LightSettings old_pond_sceneLightSettings0x00005C[];
+
+
+
+
+
+extern ActorEntry old_pond_sceneStartPositionList0x000040[];
+extern RomFile old_pond_sceneRoomList0x000050[];
+extern EntranceEntry old_pond_sceneEntranceList0x000058[2];
+extern LightSettings old_pond_sceneLightSettings0x00005C[12];
+extern CamData old_pond_sceneCollisionHeader0x001130_camDataList_00000170[2];
+extern u32 old_pond_sceneCollisionHeader0x001130_polygonTypes_00000180[];
+extern CollisionPoly old_pond_sceneCollisionHeader0x001130_polygons_00000188[];
+extern Vec3s old_pond_sceneCollisionHeader0x001130_vtx_00000D88[];
+extern WaterBox old_pond_sceneCollisionHeader0x001130_waterBoxes_00001124[];
+extern CollisionHeader old_pond_sceneCollisionHeader0x001130;
+extern u64 old_pond_sceneTex_001160[];
+

@@ -1,0 +1,6 @@
+# default gz patches for NACE
+0000 00000000 00000001
+# use 8MB memory
+0304 00002EB0 60000000
+# allocate 32MB for rom
+0304 0005BFD4 3C807200

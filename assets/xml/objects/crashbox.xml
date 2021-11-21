@@ -1,0 +1,6 @@
+<Root>
+    <File Name="crashbox" Segment="6">
+        <DList Name="gCrashboxDL" Offset="0x870"/>
+        <Collision Name="gCrashboxCol" Offset="0x600"/>
+    </File>
+</Root>

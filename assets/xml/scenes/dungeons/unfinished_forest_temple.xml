@@ -1,0 +1,8 @@
+<Root>
+	<File Name="unfinished_forest_temple_scene" Game="SW97">
+		<Scene Name="unfinished_forest_temple_scene"/>
+	</File>
+	<File Name="unfinished_forest_temple_room_00" Game="SW97">
+		<Room Name="unfinished_forest_temple_room_00"/>
+	</File>
+</Root>

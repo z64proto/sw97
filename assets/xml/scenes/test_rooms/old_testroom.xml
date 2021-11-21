@@ -1,0 +1,17 @@
+<Root>
+	<File Name="old_testroom_scene" Game="SW97">
+		<Scene Name="old_testroom_scene"/>
+	</File>
+	<File Name="old_testroom_room_00" Game="SW97">
+		<Room Name="old_testroom_room_00"/>
+	</File>
+	<File Name="old_testroom_room_01" Game="SW97">
+		<Room Name="old_testroom_room_01"/>
+	</File>
+	<File Name="old_testroom_room_02" Game="SW97">
+		<Room Name="old_testroom_room_02"/>
+	</File>
+	<File Name="old_testroom_room_03" Game="SW97">
+		<Room Name="old_testroom_room_03"/>
+	</File>
+</Root>

@@ -1,0 +1,8 @@
+<Root>
+	<File Name="market_entrance_scene">
+		<Scene Name="market_entrance_scene"/>
+	</File>
+	<File Name="market_entrance_room_00">
+		<Room Name="market_entrance_room_00"/>
+	</File>
+</Root>

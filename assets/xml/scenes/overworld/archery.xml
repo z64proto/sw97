@@ -1,0 +1,8 @@
+<Root>
+	<File Name="archery_scene" Game="SW97">
+		<Scene Name="archery_scene"/>
+	</File>
+	<File Name="archery_room_00" Game="SW97">
+		<Room Name="archery_room_00"/>
+	</File>
+</Root>

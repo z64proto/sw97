@@ -1,0 +1,38 @@
+<Root>
+	<File Name="poe_race_scene" Game="SW97">
+		<Scene Name="poe_race_scene"/>
+	</File>
+	<File Name="poe_race_room_00" Game="SW97">
+		<Room Name="poe_race_room_00"/>
+	</File>
+	<File Name="poe_race_room_01" Game="SW97">
+		<Room Name="poe_race_room_01"/>
+	</File>
+	<File Name="poe_race_room_02" Game="SW97">
+		<Room Name="poe_race_room_02"/>
+	</File>
+	<File Name="poe_race_room_03" Game="SW97">
+		<Room Name="poe_race_room_03"/>
+	</File>
+	<File Name="poe_race_room_04" Game="SW97">
+		<Room Name="poe_race_room_04"/>
+	</File>
+	<File Name="poe_race_room_05" Game="SW97">
+		<Room Name="poe_race_room_05"/>
+	</File>
+	<File Name="poe_race_room_06" Game="SW97">
+		<Room Name="poe_race_room_06"/>
+	</File>
+	<File Name="poe_race_room_07" Game="SW97">
+		<Room Name="poe_race_room_07"/>
+	</File>
+	<File Name="poe_race_room_08" Game="SW97">
+		<Room Name="poe_race_room_08"/>
+	</File>
+	<File Name="poe_race_room_09" Game="SW97">
+		<Room Name="poe_race_room_09"/>
+	</File>
+	<File Name="poe_race_room_10" Game="SW97">
+		<Room Name="poe_race_room_10"/>
+	</File>
+</Root>

@@ -1,0 +1,8 @@
+<Root>
+	<File Name="old_sutaru_scene" Game="SW97">
+		<Scene Name="old_sutaru_scene"/>
+	</File>
+	<File Name="old_sutaru_room_00" Game="SW97">
+		<Room Name="old_sutaru_room_00"/>
+	</File>
+</Root>

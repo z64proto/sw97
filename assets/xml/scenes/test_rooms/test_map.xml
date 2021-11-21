@@ -1,0 +1,12 @@
+<Root>
+	<File Name="test_map_scene" Game="SW97">
+		<Scene Name="test_map_scene"/>
+	</File>
+	<File Name="test_map_room_00" Game="SW97">
+		<Room Name="test_map_room_00"/>
+		<DList Name="gUnknownDlist1E90" Offset="0x1E90"/>
+		<DList Name="gUnknownDlist26E0" Offset="0x26E0"/>
+		<DList Name="gUnknownDlist26F0" Offset="0x26F0"/>
+		<DList Name="gUnknownDlist2700" Offset="0x2700"/>
+	</File>
+</Root>
