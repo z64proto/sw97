@@ -36,7 +36,7 @@ git clone <url-to-your-fork.git>
 Install the necessary build dependencies with
 ```bash
 sudo apt-get update
-sudo apt-get install git build-essential binutils-mips-linux-gnu python3
+sudo apt-get install git build-essential binutils-mips-linux-gnu python3 python3-pyelftools
 ```
 
 Add your legally-obtained Master Quest PAL GCN Debug ROM into the root folder, and name it `baserom_original.z64`.
