@@ -1,0 +1,21 @@
+extern AnimationHeader gGuayFlyAnim;
+extern Gfx sGuaySkelLimbDL_000490[];
+extern Gfx sGuaySkelLimbDL_0005E0[];
+extern Gfx sGuaySkelLimbDL_0006B0[];
+extern Gfx sGuaySkelLimbDL_000770[];
+extern Gfx sGuaySkelLimbDL_000840[];
+extern Gfx sGuaySkelLimbDL_000900[];
+extern Gfx sGuaySkelLimbDL_0009A0[];
+extern u64 gGuayBodyTex[];
+extern u64 gGuayEyeTex[];
+extern u64 gGuayTailTex[];
+extern StandardLimb sGuaySkelLimb_001040;
+extern StandardLimb sGuaySkelLimb_00104C;
+extern StandardLimb sGuaySkelLimb_001058;
+extern StandardLimb sGuaySkelLimb_001064;
+extern StandardLimb sGuaySkelLimb_001070;
+extern StandardLimb sGuaySkelLimb_00107C;
+extern StandardLimb sGuaySkelLimb_001088;
+extern StandardLimb sGuaySkelLimb_001094;
+extern FlexSkeletonHeader gGuaySkel;
+

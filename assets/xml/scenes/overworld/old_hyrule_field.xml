@@ -1,0 +1,8 @@
+<Root>
+	<File Name="old_hyrule_field_scene" Game="SW97">
+		<Scene Name="old_hyrule_field_scene"/>
+	</File>
+	<File Name="old_hyrule_field_room_00" Game="SW97">
+		<Room Name="old_hyrule_field_room_00"/>
+	</File>
+</Root>

@@ -1,0 +1,13 @@
+extern CamData gHsBlockCol_000578_camDataList_00000530[1];
+extern SurfaceType gHsBlockCol_000578_surfaceType_00000538[];
+extern CollisionPoly gHsBlockCol_000578_polygons_00000540[];
+extern Vec3s gHsBlockCol_000578_vtx_00000560[];
+extern CollisionHeader gHsBlockCol_000578;
+extern CamData gHsBlockCol_000730_camDataList_000005B0[1];
+extern SurfaceType gHsBlockCol_000730_surfaceType_000005B8[];
+extern CollisionPoly gHsBlockCol_000730_polygons_000005C8[];
+extern Vec3s gHsBlockCol_000730_vtx_000006E8[];
+extern CollisionHeader gHsBlockCol_000730;
+extern u64 hsblock_pillar_base[];
+extern Gfx gHsBlockDL_000470[];
+extern Gfx gHsBlockDL_000210[];

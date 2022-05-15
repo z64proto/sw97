@@ -1,0 +1,8 @@
+<Root>
+	<File Name="gerudo_valley_scene" Game="SW97">
+		<Scene Name="gerudo_valley_scene"/>
+	</File>
+	<File Name="gerudo_valley_room_00" Game="SW97">
+		<Room Name="gerudo_valley_room_00"/>
+	</File>
+</Root>

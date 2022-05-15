@@ -1,0 +1,5 @@
+<Root>
+    <File Name="hatchild" Segment="6">
+        <DList Name="gLinkChildPhysicsHatDL" Offset="0x430"/>
+    </File>
+</Root>

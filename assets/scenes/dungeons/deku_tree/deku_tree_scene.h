@@ -1,0 +1,26 @@
+extern RomFile deku_tree_sceneRoomList0x0001F8[];
+extern TransitionActorEntry deku_tree_sceneTransitionActorList0x000078[];
+extern EntranceEntry deku_tree_sceneEntranceList0x000268[];
+extern ActorEntry deku_tree_sceneStartPositionList0x000058[];
+extern u16 deku_tree_sceneExitList0x00026C[];
+extern LightSettings deku_tree_sceneLightSettings0x000270[];
+
+
+
+
+
+extern ActorEntry deku_tree_sceneStartPositionList0x000058[];
+extern TransitionActorEntry deku_tree_sceneTransitionActorList0x000078[];
+extern RomFile deku_tree_sceneRoomList0x0001F8[];
+extern EntranceEntry deku_tree_sceneEntranceList0x000268[2];
+extern u16 deku_tree_sceneExitList0x00026C[2];
+extern LightSettings deku_tree_sceneLightSettings0x000270[6];
+extern Vec3s deku_tree_sceneCollisionHeader0x00EA9C_camPosData_00000300[36];
+extern CamData deku_tree_sceneCollisionHeader0x00EA9C_camDataList_000003D8[18];
+extern u32 deku_tree_sceneCollisionHeader0x00EA9C_polygonTypes_00000468[];
+extern CollisionPoly deku_tree_sceneCollisionHeader0x00EA9C_polygons_00000580[];
+extern Vec3s deku_tree_sceneCollisionHeader0x00EA9C_vtx_0000BA40[];
+extern CollisionHeader deku_tree_sceneCollisionHeader0x00EA9C;
+extern u64 deku_tree_sceneTex_00EAD0[];
+extern u64 deku_tree_sceneTex_00FAD0[];
+

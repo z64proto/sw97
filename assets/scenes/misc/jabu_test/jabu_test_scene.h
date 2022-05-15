@@ -1,0 +1,20 @@
+extern RomFile jabu_test_sceneRoomList0x000048[];
+extern EntranceEntry jabu_test_sceneEntranceList0x000050[];
+extern ActorEntry jabu_test_sceneStartPositionList0x000038[];
+extern LightSettings jabu_test_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry jabu_test_sceneStartPositionList0x000038[];
+extern RomFile jabu_test_sceneRoomList0x000048[];
+extern EntranceEntry jabu_test_sceneEntranceList0x000050[2];
+extern LightSettings jabu_test_sceneLightSettings0x000054[4];
+extern CamData jabu_test_sceneCollisionHeader0x000410_camDataList_000000B0[1];
+extern u32 jabu_test_sceneCollisionHeader0x000410_polygonTypes_000000B8[];
+extern CollisionPoly jabu_test_sceneCollisionHeader0x000410_polygons_000000C0[];
+extern Vec3s jabu_test_sceneCollisionHeader0x000410_vtx_00000380[];
+extern CollisionHeader jabu_test_sceneCollisionHeader0x000410;
+extern u64 jabu_test_sceneTex_000440[];
+

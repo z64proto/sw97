@@ -1,0 +1,266 @@
+#include "ultra64.h"
+#include "z64.h"
+#include "macros.h"
+#include "object_gi_butterfly.h"
+
+static Vtx object_gi_butterflyVtx_000240[3];
+static Vtx object_gi_butterflyVtx_000270[13];
+static Vtx object_gi_butterflyVtx_000340[30];
+static Vtx object_gi_butterflyVtx_000520[9];
+static Vtx object_gi_butterflyVtx_0005B0[10];
+static Vtx object_gi_butterflyVtx_000650[4];
+static Vtx object_gi_butterflyVtx_000690[14];
+static Vtx object_gi_butterflyVtx_000770[12];
+
+u64 object_gi_butterflyTex_000000[] = {
+#include "assets/objects/object_gi_butterfly//object_gi_butterflyTex_000000.ia16.inc.c"
+};
+
+static Vtx object_gi_butterflyVtx_000240[3] = {
+    VTX(-10, 13, -3, 981, 1759, 255, 0, 137, 255),
+    VTX(-15, 14, 0, 1024, 1685, 181, 73, 58, 255),
+    VTX(0, 30, 0, 1024, 1024, 213, 42, 153, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000270[13] = {
+    VTX(-10, 13, 3, 43, 1759, 73, 183, 60, 255),
+    VTX(-10, 13, -3, -43, 1759, 255, 0, 137, 255),
+    VTX(0, 23, -3, -256, 1372, 44, 214, 153, 255),
+    VTX(-15, 14, 0, 0, 1685, 181, 73, 58, 255),
+    VTX(0, 23, 3, 256, 1372, 212, 214, 103, 255),
+    VTX(15, 14, 0, 512, 1685, 75, 73, 198, 255),
+    VTX(10, 13, -3, 555, 1759, 183, 183, 196, 255),
+    VTX(0, 23, -3, 768, 1372, 44, 214, 153, 255),
+    VTX(10, 13, 3, 469, 1759, 1, 0, 119, 255),
+    VTX(0, 30, 0, 0, 1024, 37, 71, 88, 255),
+    VTX(0, 30, 0, 1024, 1024, 213, 42, 153, 255),
+    VTX(-10, 13, -3, 981, 1759, 255, 0, 137, 255),
+    VTX(0, 30, 0, 1024, 1024, 37, 71, 88, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000340[30] = {
+    VTX(13, -23, -22, 683, 1715, 26, 90, 181, 255),
+    VTX(-13, -23, -22, 853, 1715, 183, 42, 172, 255),
+    VTX(-25, -23, 0, 1024, 1715, 178, 90, 15, 255),
+    VTX(13, -30, -22, 683, 1772, 73, 214, 172, 255),
+    VTX(25, -23, 0, 512, 1715, 110, 42, 235, 255),
+    VTX(25, -30, 0, 512, 1772, 78, 166, 15, 255),
+    VTX(13, -23, 22, 341, 1715, 52, 90, 60, 255),
+    VTX(13, -30, 22, 341, 1772, 37, 214, 106, 255),
+    VTX(-13, -23, 22, 171, 1715, 219, 42, 106, 255),
+    VTX(-13, -30, 22, 171, 1772, 204, 166, 60, 255),
+    VTX(-25, -23, 0, 0, 1715, 178, 90, 15, 255),
+    VTX(-25, -30, 0, 1024, 1772, 146, 214, 235, 255),
+    VTX(-13, -30, -22, 853, 1772, 230, 166, 181, 255),
+    VTX(-25, -30, 0, 0, 1772, 146, 214, 235, 255),
+    VTX(-13, -30, -22, -171, 1772, 230, 166, 181, 255),
+    VTX(13, 15, -22, 683, 1300, 26, 90, 181, 255),
+    VTX(-13, 15, -22, 853, 1300, 183, 42, 172, 255),
+    VTX(-25, 15, 0, 1024, 1300, 178, 90, 15, 255),
+    VTX(13, 8, -22, 683, 1357, 73, 214, 172, 255),
+    VTX(25, 15, 0, 512, 1300, 110, 42, 235, 255),
+    VTX(25, 8, 0, 512, 1357, 78, 166, 15, 255),
+    VTX(13, 15, 22, 341, 1300, 52, 90, 60, 255),
+    VTX(13, 8, 22, 341, 1357, 37, 214, 106, 255),
+    VTX(-13, 15, 22, 171, 1300, 219, 42, 106, 255),
+    VTX(-13, 8, 22, 171, 1357, 204, 166, 60, 255),
+    VTX(-25, 15, 0, 0, 1300, 178, 90, 15, 255),
+    VTX(-25, 8, 0, 1024, 1357, 146, 214, 235, 255),
+    VTX(-13, 8, -22, 853, 1357, 230, 166, 181, 255),
+    VTX(-25, 8, 0, 0, 1357, 146, 214, 235, 255),
+    VTX(-13, 8, -22, -171, 1357, 230, 166, 181, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000520[9] = {
+    VTX(1, -6, 5, 0, 1024, 115, 12, 227, 255),
+    VTX(0, -5, 4, 0, 1024, 210, 58, 162, 255),
+    VTX(0, -4, 5, 0, 1024, 29, 95, 190, 255),
+    VTX(-1, -6, 5, 0, 1024, 141, 233, 22, 255),
+    VTX(-1, -4, 7, 0, 1024, 144, 42, 4, 255),
+    VTX(0, -7, 7, 0, 1024, 46, 191, 89, 255),
+    VTX(0, -6, 8, 0, 1024, 227, 231, 113, 255),
+    VTX(1, -4, 7, 0, 1024, 112, 20, 37, 255),
+    VTX(0, -3, 7, 0, 1024, 0, 99, 67, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_0005B0[10] = {
+    VTX(1, -6, 5, 0, 1024, 116, 246, 27, 255),
+    VTX(0, -7, 7, 0, 1024, 206, 203, 95, 255),
+    VTX(0, -15, 2, 0, 1024, 31, 178, 85, 255),
+    VTX(-1, -6, 5, 0, 1024, 140, 22, 237, 255),
+    VTX(-2, -14, 0, 0, 1024, 139, 235, 7, 255),
+    VTX(0, -5, 4, 0, 1024, 50, 68, 171, 255),
+    VTX(0, -13, -2, 0, 1024, 225, 50, 152, 255),
+    VTX(2, -14, 0, 0, 1024, 117, 255, 234, 255),
+    VTX(0, -18, -2, 0, 1024, 68, 158, 0, 255),
+    VTX(0, -18, -2, 0, 1024, 167, 11, 177, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000650[4] = {
+    VTX(-13, -23, -22, 853, 1715, 217, 0, 143, 255),
+    VTX(-13, 8, -22, 853, 1357, 178, 0, 166, 255),
+    VTX(13, 8, -22, 683, 1357, 39, 0, 143, 255),
+    VTX(13, -23, -22, 683, 1715, 78, 0, 166, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000690[14] = {
+    VTX(-25, -23, 0, 1024, 1715, 139, 0, 233, 255),
+    VTX(-25, 8, 0, 1024, 1357, 139, 0, 23, 255),
+    VTX(-13, 8, -22, 853, 1357, 178, 0, 166, 255),
+    VTX(-13, -23, -22, 853, 1715, 217, 0, 143, 255),
+    VTX(-13, -23, 22, 171, 1715, 178, 0, 90, 255),
+    VTX(-13, 8, 22, 171, 1357, 217, 0, 113, 255),
+    VTX(-25, 8, 0, 0, 1357, 139, 0, 23, 255),
+    VTX(-25, -23, 0, 0, 1715, 139, 0, 233, 255),
+    VTX(13, -23, 22, 341, 1715, 39, 0, 113, 255),
+    VTX(13, 8, 22, 341, 1357, 78, 0, 90, 255),
+    VTX(25, -23, 0, 512, 1715, 117, 0, 23, 255),
+    VTX(25, 8, 0, 512, 1357, 117, 0, 233, 255),
+    VTX(13, -23, -22, 683, 1715, 78, 0, 166, 255),
+    VTX(13, 8, -22, 683, 1357, 39, 0, 143, 255),
+}; 
+
+static Vtx object_gi_butterflyVtx_000770[12] = {
+    VTX(14, 7, 5, -34, -31, 198, 54, 167, 255),
+    VTX(2, -14, 0, 790, 986, 198, 54, 167, 255),
+    VTX(1, -6, 6, 813, 489, 198, 54, 167, 255),
+    VTX(15, -20, -11, 1, 1567, 198, 54, 167, 255),
+    VTX(2, -23, -6, 767, 1567, 198, 54, 167, 255),
+    VTX(3, 3, 10, 666, -31, 198, 54, 167, 255),
+    VTX(-3, 3, 10, 666, -31, 58, 54, 167, 255),
+    VTX(-1, -6, 6, 813, 489, 58, 54, 167, 255),
+    VTX(-14, 7, 5, -34, -31, 58, 54, 167, 255),
+    VTX(-15, -20, -11, 1, 1567, 58, 54, 167, 255),
+    VTX(-2, -14, 0, 790, 986, 58, 54, 167, 255),
+    VTX(-2, -23, -6, 767, 1567, 58, 54, 167, 255),
+}; 
+
+Gfx gGiButterflyContainerDL[] = {
+    gsDPPipeSync(),
+    gsDPSetRenderMode(G_RM_PASS, G_RM_AA_ZB_TEX_EDGE2),
+    gsDPSetCombineLERP(PRIMITIVE, ENVIRONMENT, TEXEL0, ENVIRONMENT, 0, 0, 0, 1,
+                       COMBINED, K5, SHADE, COMBINED_ALPHA, 0, 0, 0, 1),
+    gsDPSetPrimColor(0, 0, 160, 190, 90, 255),
+    gsDPSetEnvColor(100, 50, 0, 255),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(2000, 2000, 0, 0, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_16b, 1, 0x04032490),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0, 7, 0, 0, 5, 0, 0, 5, 0),
+    gsDPLoadSync(),
+    gsDPLoadBlock(7, 0, 0, 511, 512),
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, 0, 5, 0, 0, 5, 0),
+    gsDPSetTileSize(0, 0, 0, 124, 124),
+    gsSPClearGeometryMode(G_TEXTURE_ENABLE | G_FOG),
+    gsSPSetGeometryMode(G_TEXTURE_ENABLE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR),
+    gsSPVertex(&object_gi_butterflyVtx_000240[0], 3, 0),
+    gsSP1Triangle(0, 1, 2, 0),
+    gsSPVertex(&object_gi_butterflyVtx_000270[0], 13, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 0, 4, 0),
+    gsSP2Triangles(5, 6, 7, 0, 6, 8, 4, 0),
+    gsSP2Triangles(8, 5, 9, 0, 10, 7, 11, 0),
+    gsSP2Triangles(2, 4, 0, 0, 4, 9, 3, 0),
+    gsSP2Triangles(7, 12, 5, 0, 4, 2, 6, 0),
+    gsSP1Triangle(9, 4, 8, 0),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 0, 100, 150, 255),
+    gsDPSetEnvColor(50, 30, 100, 255),
+    gsSPVertex(&object_gi_butterflyVtx_000340[0], 30, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 0, 4, 0),
+    gsSP2Triangles(5, 4, 6, 0, 7, 6, 8, 0),
+    gsSP2Triangles(9, 8, 10, 0, 11, 2, 1, 0),
+    gsSP2Triangles(12, 1, 0, 0, 5, 7, 9, 0),
+    gsSP2Triangles(10, 6, 0, 0, 6, 4, 0, 0),
+    gsSP2Triangles(10, 8, 6, 0, 4, 5, 3, 0),
+    gsSP2Triangles(6, 7, 5, 0, 8, 9, 7, 0),
+    gsSP2Triangles(10, 13, 9, 0, 1, 12, 11, 0),
+    gsSP2Triangles(0, 3, 12, 0, 9, 14, 5, 0),
+    gsSP2Triangles(12, 3, 5, 0, 9, 13, 14, 0),
+    gsSP2Triangles(15, 16, 17, 0, 18, 15, 19, 0),
+    gsSP2Triangles(20, 19, 21, 0, 22, 21, 23, 0),
+    gsSP2Triangles(24, 23, 25, 0, 26, 17, 16, 0),
+    gsSP2Triangles(27, 16, 15, 0, 20, 22, 24, 0),
+    gsSP2Triangles(25, 21, 15, 0, 21, 19, 15, 0),
+    gsSP2Triangles(25, 23, 21, 0, 19, 20, 18, 0),
+    gsSP2Triangles(21, 22, 20, 0, 23, 24, 22, 0),
+    gsSP2Triangles(25, 28, 24, 0, 16, 27, 26, 0),
+    gsSP2Triangles(15, 18, 27, 0, 24, 29, 20, 0),
+    gsSP2Triangles(27, 18, 20, 0, 24, 28, 29, 0),
+    gsDPPipeSync(),
+    gsDPSetRenderMode(G_RM_PASS, G_RM_AA_ZB_OPA_SURF2),
+    gsDPSetPrimColor(0, 0, 150, 50, 50, 255),
+    gsDPSetEnvColor(100, 0, 0, 255),
+    gsSPTexture(0, 0, 0, 0, G_OFF),
+    gsSPVertex(&object_gi_butterflyVtx_000520[0], 9, 0),
+    gsSP2Triangles(0, 1, 2, 0, 1, 3, 4, 0),
+    gsSP2Triangles(3, 5, 6, 0, 5, 0, 7, 0),
+    gsSP2Triangles(8, 7, 2, 0, 8, 6, 7, 0),
+    gsSP2Triangles(4, 6, 8, 0, 2, 4, 8, 0),
+    gsSP2Triangles(2, 7, 0, 0, 4, 2, 1, 0),
+    gsSP2Triangles(6, 4, 3, 0, 7, 6, 5, 0),
+    gsDPPipeSync(),
+    gsDPSetPrimColor(0, 0, 200, 100, 100, 255),
+    gsDPSetEnvColor(150, 50, 0, 255),
+    gsSPVertex(&object_gi_butterflyVtx_0005B0[0], 10, 0),
+    gsSP2Triangles(0, 1, 2, 0, 1, 3, 4, 0),
+    gsSP2Triangles(3, 5, 6, 0, 5, 0, 7, 0),
+    gsSP2Triangles(8, 7, 2, 0, 8, 6, 7, 0),
+    gsSP2Triangles(4, 6, 9, 0, 2, 4, 8, 0),
+    gsSP2Triangles(2, 7, 0, 0, 4, 2, 1, 0),
+    gsSP2Triangles(6, 4, 3, 0, 7, 6, 5, 0),
+    gsSPEndDisplayList(),
+}; 
+
+Gfx gGiButterflyGlassDL[] = {
+    gsDPPipeSync(),
+    gsDPSetRenderMode(G_RM_OPA_SURF, G_RM_AA_ZB_XLU_SURF2),
+    gsDPSetCombineLERP(PRIMITIVE, ENVIRONMENT, TEXEL0, ENVIRONMENT, TEXEL0, 0, PRIMITIVE, 0,
+                       COMBINED, K5, SHADE, COMBINED_ALPHA, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 255, 255, 255, 220),
+    gsDPSetEnvColor(110, 150, 170, 255),
+    gsDPSetTextureLUT(G_TT_NONE),
+    gsSPTexture(2700, 2700, 0, 0, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_16b, 1, 0x04032490),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_16b, 0, 0, 7, 0, 0, 5, 1, 0, 5, 1),
+    gsDPLoadSync(),
+    gsDPLoadBlock(7, 0, 0, 511, 512),
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, 0, 5, 1, 0, 5, 1),
+    gsDPSetTileSize(0, 0, 0, 124, 124),
+    gsSPClearGeometryMode(G_TEXTURE_ENABLE | G_CULL_BACK | G_FOG),
+    gsSPSetGeometryMode(G_TEXTURE_ENABLE | G_LIGHTING | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR),
+    gsSPVertex(&object_gi_butterflyVtx_000650[0], 4, 0),
+    gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+    gsSPVertex(&object_gi_butterflyVtx_000690[0], 14, 0),
+    gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+    gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
+    gsSP2Triangles(8, 9, 5, 0, 8, 5, 4, 0),
+    gsSP2Triangles(10, 11, 9, 0, 10, 9, 8, 0),
+    gsSP2Triangles(12, 13, 11, 0, 12, 11, 10, 0),
+    gsDPPipeSync(),
+    gsDPSetCombineLERP(PRIMITIVE, K5, TEXEL0, ENVIRONMENT, 0, 0, 0, TEXEL0,
+                       COMBINED, K5, SHADE, COMBINED_ALPHA, 0, 0, 0, COMBINED),
+    gsDPSetPrimColor(0, 0, 255, 255, 0, 255),
+    gsDPSetEnvColor(100, 0, 0, 255),
+    gsSPTexture(65535, 65535, 0, 0, G_ON),
+    gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_16b, 1, object_gi_butterflyTex_000000),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_16b, 0, 0, 7, 0, 2, 6, 0, 2, 5, 0),
+    gsDPLoadSync(),
+    gsDPLoadBlock(7, 0, 0, 287, 2048),
+    gsDPPipeSync(),
+    gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_4b, 2, 0, 0, 0, 2, 6, 0, 2, 5, 0),
+    gsDPSetTileSize(0, 0, 0, 92, 188),
+    gsSPClearGeometryMode(G_TEXTURE_ENABLE | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR),
+    gsSPVertex(&object_gi_butterflyVtx_000770[0], 12, 0),
+    gsSP2Triangles(0, 1, 2, 0, 3, 4, 1, 0),
+    gsSP2Triangles(1, 0, 3, 0, 0, 2, 5, 0),
+    gsSP2Triangles(6, 7, 8, 0, 9, 8, 10, 0),
+    gsSP2Triangles(10, 11, 9, 0, 7, 10, 8, 0),
+    gsSPEndDisplayList(),
+}; 
+
+static u8 unaccounted_000BC8[8] = {
+    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+}; 
+
+

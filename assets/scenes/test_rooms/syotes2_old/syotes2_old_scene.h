@@ -1,0 +1,21 @@
+extern RomFile syotes2_old_sceneRoomList0x000050[];
+extern EntranceEntry syotes2_old_sceneEntranceList0x000058[];
+extern ActorEntry syotes2_old_sceneStartPositionList0x000040[];
+extern LightSettings syotes2_old_sceneLightSettings0x00005C[];
+
+
+
+
+
+extern ActorEntry syotes2_old_sceneStartPositionList0x000040[];
+extern RomFile syotes2_old_sceneRoomList0x000050[];
+extern EntranceEntry syotes2_old_sceneEntranceList0x000058[2];
+extern LightSettings syotes2_old_sceneLightSettings0x00005C[4];
+extern CamData syotes2_old_sceneCollisionHeader0x002440_camDataList_000000C0[1];
+extern u32 syotes2_old_sceneCollisionHeader0x002440_polygonTypes_000000C8[];
+extern CollisionPoly syotes2_old_sceneCollisionHeader0x002440_polygons_000000D0[];
+extern Vec3s syotes2_old_sceneCollisionHeader0x002440_vtx_00001C30[];
+extern CollisionHeader syotes2_old_sceneCollisionHeader0x002440;
+extern u64 syotes2_old_sceneTex_002470[];
+extern u64 syotes2_old_sceneTex_002C70[];
+

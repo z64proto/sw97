@@ -1,0 +1,20 @@
+extern RomFile unfinished_gohma_sceneRoomList0x000050[];
+extern EntranceEntry unfinished_gohma_sceneEntranceList0x000058[];
+extern ActorEntry unfinished_gohma_sceneStartPositionList0x000040[];
+extern LightSettings unfinished_gohma_sceneLightSettings0x00005C[];
+
+
+
+
+
+extern ActorEntry unfinished_gohma_sceneStartPositionList0x000040[];
+extern RomFile unfinished_gohma_sceneRoomList0x000050[];
+extern EntranceEntry unfinished_gohma_sceneEntranceList0x000058[2];
+extern LightSettings unfinished_gohma_sceneLightSettings0x00005C[6];
+extern CamData unfinished_gohma_sceneCollisionHeader0x002FBC_camDataList_00000090[1];
+extern u32 unfinished_gohma_sceneCollisionHeader0x002FBC_polygonTypes_00000098[];
+extern CollisionPoly unfinished_gohma_sceneCollisionHeader0x002FBC_polygons_000000A0[];
+extern Vec3s unfinished_gohma_sceneCollisionHeader0x002FBC_vtx_00002830[];
+extern CollisionHeader unfinished_gohma_sceneCollisionHeader0x002FBC;
+extern u64 unfinished_gohma_sceneTex_002FF0[];
+

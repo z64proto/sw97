@@ -1,0 +1,35 @@
+<Root>
+	<File Name="dodongos_cavern_scene" Game="SW97">
+		<Scene Name="dodongos_cavern_scene"/>
+	</File>
+	<File Name="dodongos_cavern_room_00" Game="SW97">
+		<Room Name="dodongos_cavern_room_00"/>
+	</File>
+	<File Name="dodongos_cavern_room_01" Game="SW97">
+		<Room Name="dodongos_cavern_room_01"/>
+	</File>
+	<File Name="dodongos_cavern_room_02" Game="SW97">
+		<Room Name="dodongos_cavern_room_02"/>
+	</File>
+	<File Name="dodongos_cavern_room_03" Game="SW97">
+		<Room Name="dodongos_cavern_room_03"/>
+	</File>
+	<File Name="dodongos_cavern_room_04" Game="SW97">
+		<Room Name="dodongos_cavern_room_04"/>
+	</File>
+	<File Name="dodongos_cavern_room_05" Game="SW97">
+		<Room Name="dodongos_cavern_room_05"/>
+	</File>
+	<File Name="dodongos_cavern_room_06" Game="SW97">
+		<Room Name="dodongos_cavern_room_06"/>
+	</File>
+	<File Name="dodongos_cavern_room_07" Game="SW97">
+		<Room Name="dodongos_cavern_room_07"/>
+	</File>
+	<File Name="dodongos_cavern_room_08" Game="SW97">
+		<Room Name="dodongos_cavern_room_08"/>
+	</File>
+	<File Name="dodongos_cavern_room_09" Game="SW97">
+		<Room Name="dodongos_cavern_room_09"/>
+	</File>
+</Root>

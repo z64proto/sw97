@@ -1,0 +1,25 @@
+extern Gfx gArwingDL[];
+extern u64 ovl_En_Clear_TagTex_003308[];
+extern u64 ovl_En_Clear_TagTex_003388[];
+extern u64 ovl_En_Clear_TagTex_003B88[];
+extern u64 ovl_En_Clear_TagTex_004B88[];
+extern u64 ovl_En_Clear_TagTex_005388[];
+extern u64 ovl_En_Clear_TagTex_005B88[];
+extern Gfx gArwingLaserDL[];
+extern u64 ovl_En_Clear_TagTex_006458[];
+extern Gfx gArwingBackfireDL[];
+extern u64 ovl_En_Clear_TagTex_006708[];
+extern u64 ovl_En_Clear_TagTex_006808[];
+extern Gfx gArwingDebrisEffectMaterialDL[];
+extern Gfx gArwingDebrisEffectDL[];
+extern u64 ovl_En_Clear_TagTex_006AD0[];
+extern u64 ovl_En_Clear_TagTex_006ED0[];
+extern Gfx gArwingFireEffectMaterialDL[];
+extern Gfx gArwingFireEffectDL[];
+extern u64 ovl_En_Clear_TagTex_0071C8[];
+extern Gfx gArwingFlashEffectDL[];
+extern u64 ovl_En_Clear_TagTex_008288[];
+extern Gfx gArwingFlashEffectGroundDL[];
+extern u64 ovl_En_Clear_TagTex_008540[];
+extern Gfx gArwingShadowDL[];
+

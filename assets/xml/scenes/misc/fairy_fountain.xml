@@ -1,0 +1,8 @@
+<Root>
+	<File Name="fairy_fountain_scene" Game="SW97">
+		<Scene Name="fairy_fountain_scene"/>
+	</File>
+	<File Name="fairy_fountain_room_00" Game="SW97">
+		<Room Name="fairy_fountain_room_00"/>
+	</File>
+</Root>

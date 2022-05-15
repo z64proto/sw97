@@ -1,0 +1,24 @@
+extern RomFile temple_of_time_sceneRoomList0x000060[];
+extern EntranceEntry temple_of_time_sceneEntranceList0x000068[];
+extern ActorEntry temple_of_time_sceneStartPositionList0x000050[];
+extern u16 temple_of_time_sceneExitList0x00006C[];
+extern LightSettings temple_of_time_sceneLightSettings0x000070[];
+
+
+
+
+
+extern ActorEntry temple_of_time_sceneStartPositionList0x000050[];
+extern RomFile temple_of_time_sceneRoomList0x000060[];
+extern EntranceEntry temple_of_time_sceneEntranceList0x000068[2];
+extern u16 temple_of_time_sceneExitList0x00006C[2];
+extern LightSettings temple_of_time_sceneLightSettings0x000070[4];
+extern CamData temple_of_time_sceneCollisionHeader0x0016EC_camDataList_000000D0[3];
+extern u32 temple_of_time_sceneCollisionHeader0x0016EC_polygonTypes_000000E8[];
+extern CollisionPoly temple_of_time_sceneCollisionHeader0x0016EC_polygons_00000110[];
+extern Vec3s temple_of_time_sceneCollisionHeader0x0016EC_vtx_000010B0[];
+extern CollisionHeader temple_of_time_sceneCollisionHeader0x0016EC;
+extern u64 temple_of_time_sceneTex_001720[];
+extern u64 temple_of_time_sceneTex_001F20[];
+extern u64 temple_of_time_sceneTex_002F20[];
+

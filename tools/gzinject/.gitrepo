@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/krimtonz/gzinject.git
+	branch = master
+	commit = a2d1b85af507f43cfeaa71c25372a80627e33f24
+	parent = 377b8a3915e1d61413542acbac53120d58323645
+	method = merge
+	cmdver = 0.4.3

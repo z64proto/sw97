@@ -1,0 +1,8 @@
+<Root>
+	<File Name="temple_of_time_scene" Game="SW97">
+		<Scene Name="temple_of_time_scene"/>
+	</File>
+	<File Name="temple_of_time_room_00" Game="SW97">
+		<Room Name="temple_of_time_room_00"/>
+	</File>
+</Root>

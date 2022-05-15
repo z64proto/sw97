@@ -1,0 +1,2 @@
+extern Gfx gGiBeanDL[];
+

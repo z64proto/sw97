@@ -1,0 +1,20 @@
+extern RomFile pr_behind_tot_sceneRoomList0x000048[];
+extern EntranceEntry pr_behind_tot_sceneEntranceList0x000050[];
+extern ActorEntry pr_behind_tot_sceneStartPositionList0x000038[];
+extern LightSettings pr_behind_tot_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry pr_behind_tot_sceneStartPositionList0x000038[];
+extern RomFile pr_behind_tot_sceneRoomList0x000048[];
+extern EntranceEntry pr_behind_tot_sceneEntranceList0x000050[2];
+extern LightSettings pr_behind_tot_sceneLightSettings0x000054[1];
+extern Vec3s pr_behind_tot_sceneCollisionHeader0x0007C8_camPosData_00000070[3];
+extern CamData pr_behind_tot_sceneCollisionHeader0x0007C8_camDataList_00000084[2];
+extern u32 pr_behind_tot_sceneCollisionHeader0x0007C8_polygonTypes_00000094[];
+extern CollisionPoly pr_behind_tot_sceneCollisionHeader0x0007C8_polygons_000000A4[];
+extern Vec3s pr_behind_tot_sceneCollisionHeader0x0007C8_vtx_000005C4[];
+extern CollisionHeader pr_behind_tot_sceneCollisionHeader0x0007C8;
+

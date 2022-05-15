@@ -1,0 +1,26 @@
+extern Gfx gUnknownUnusedBox1DL[];
+extern CamData gUnknownUnusedBox1Col_camDataList_00000250[1];
+extern u32 gUnknownUnusedBox1Col_polygonTypes_00000258[];
+extern CollisionPoly gUnknownUnusedBox1Col_polygons_00000260[];
+extern Vec3s gUnknownUnusedBox1Col_vtx_00000320[];
+extern CollisionHeader gUnknownUnusedBox1Col;
+extern Gfx gUnknownUnusedBox2DL[];
+extern CamData gUnknownUnusedBox2Col_camDataList_000005D0[1];
+extern u32 gUnknownUnusedBox2Col_polygonTypes_000005D8[];
+extern CollisionPoly gUnknownUnusedBox2Col_polygons_000005E0[];
+extern Vec3s gUnknownUnusedBox2Col_vtx_000006A0[];
+extern CollisionHeader gUnknownUnusedBox2Col;
+extern Gfx gUnknownUnusedBox3DL[];
+extern CamData gUnknownUnusedBox3Col_camDataList_00000950[1];
+extern u32 gUnknownUnusedBox3Col_polygonTypes_00000958[];
+extern CollisionPoly gUnknownUnusedBox3Col_polygons_00000960[];
+extern Vec3s gUnknownUnusedBox3Col_vtx_00000A20[];
+extern CollisionHeader gUnknownUnusedBox3Col;
+extern Gfx gUnknownUnusedBox4DL[];
+extern u64 gUnknownUnusedBoxTex[];
+extern CamData gUnknownUnusedBox4Col_camDataList_000014D0[1];
+extern u32 gUnknownUnusedBox4Col_polygonTypes_000014D8[];
+extern CollisionPoly gUnknownUnusedBox4Col_polygons_000014E0[];
+extern Vec3s gUnknownUnusedBox4Col_vtx_000015A0[];
+extern CollisionHeader gUnknownUnusedBox4Col;
+

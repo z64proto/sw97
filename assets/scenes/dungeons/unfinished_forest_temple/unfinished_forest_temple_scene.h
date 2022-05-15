@@ -1,0 +1,21 @@
+extern RomFile unfinished_forest_temple_sceneRoomList0x000048[];
+extern EntranceEntry unfinished_forest_temple_sceneEntranceList0x000050[];
+extern ActorEntry unfinished_forest_temple_sceneStartPositionList0x000038[];
+extern LightSettings unfinished_forest_temple_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry unfinished_forest_temple_sceneStartPositionList0x000038[];
+extern RomFile unfinished_forest_temple_sceneRoomList0x000048[];
+extern EntranceEntry unfinished_forest_temple_sceneEntranceList0x000050[2];
+extern LightSettings unfinished_forest_temple_sceneLightSettings0x000054[4];
+extern CamData unfinished_forest_temple_sceneCollisionHeader0x0033AC_camDataList_000000B0[1];
+extern u32 unfinished_forest_temple_sceneCollisionHeader0x0033AC_polygonTypes_000000B8[];
+extern CollisionPoly unfinished_forest_temple_sceneCollisionHeader0x0033AC_polygons_000000D0[];
+extern Vec3s unfinished_forest_temple_sceneCollisionHeader0x0033AC_vtx_000028D0[];
+extern CollisionHeader unfinished_forest_temple_sceneCollisionHeader0x0033AC;
+extern u64 unfinished_forest_temple_sceneTex_0033E0[];
+extern u64 unfinished_forest_temple_sceneTex_003BE0[];
+

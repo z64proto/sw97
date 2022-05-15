@@ -1,0 +1,23 @@
+extern RomFile old_lake_hylia_sceneRoomList0x000080[];
+extern EntranceEntry old_lake_hylia_sceneEntranceList0x000088[];
+extern ActorEntry old_lake_hylia_sceneStartPositionList0x000050[];
+extern u16 old_lake_hylia_sceneExitList0x000090[];
+extern LightSettings old_lake_hylia_sceneLightSettings0x000094[];
+
+
+
+
+
+extern ActorEntry old_lake_hylia_sceneStartPositionList0x000050[];
+extern RomFile old_lake_hylia_sceneRoomList0x000080[];
+extern EntranceEntry old_lake_hylia_sceneEntranceList0x000088[4];
+extern u16 old_lake_hylia_sceneExitList0x000090[2];
+extern LightSettings old_lake_hylia_sceneLightSettings0x000094[4];
+extern CamData old_lake_hylia_sceneCollisionHeader0x004DFC_camDataList_000000F0[1];
+extern u32 old_lake_hylia_sceneCollisionHeader0x004DFC_polygonTypes_000000F8[];
+extern CollisionPoly old_lake_hylia_sceneCollisionHeader0x004DFC_polygons_00000140[];
+extern Vec3s old_lake_hylia_sceneCollisionHeader0x004DFC_vtx_00004170[];
+extern CollisionHeader old_lake_hylia_sceneCollisionHeader0x004DFC;
+extern u64 old_lake_hylia_sceneTex_004E30[];
+extern u64 old_lake_hylia_sceneTex_005630[];
+

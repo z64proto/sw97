@@ -1,0 +1,15 @@
+<Root>
+    <File Name="object_box" Segment="6">
+        <Skeleton Name="gChestSkel" Type="Normal" LimbType="Standard" Offset="0x47D8"/>
+        <Collision Name="gChestCol" Offset="0x5FC8"/>
+        <DList Name="gChestBaseNormalDL" Offset="0x6F0"/>
+        <DList Name="gChestBaseBossDL" Offset="0xAE8"/>
+        <DList Name="gChestTopNormalDL" Offset="0x10C0"/>
+        <DList Name="gChestTopBossDL" Offset="0x1678"/>
+        <Animation Name="gChest1Anim" Offset="0x128"/>
+        <Animation Name="gChest2Anim" Offset="0x24C"/>
+        <Animation Name="gChest3Anim" Offset="0x43C"/>
+        <Texture Name="gOoTChestNormalFrontTex" OutName="oot_front" Format="rgb5a1" Width="32" Height="64" Offset="0x1798"/>
+        <Texture Name="gOoTChestNormalTopTex" OutName="oot_top" Format="rgb5a1" Width="32" Height="32" Offset="0x2798"/>
+    </File>
+</Root>

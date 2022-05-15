@@ -1,0 +1,22 @@
+extern RomFile old_graveyard_sceneRoomList0x000060[];
+extern EntranceEntry old_graveyard_sceneEntranceList0x000068[];
+extern ActorEntry old_graveyard_sceneStartPositionList0x000050[];
+extern u16 old_graveyard_sceneExitList0x00006C[];
+extern LightSettings old_graveyard_sceneLightSettings0x000070[];
+
+
+
+
+
+extern ActorEntry old_graveyard_sceneStartPositionList0x000050[];
+extern RomFile old_graveyard_sceneRoomList0x000060[];
+extern EntranceEntry old_graveyard_sceneEntranceList0x000068[2];
+extern u16 old_graveyard_sceneExitList0x00006C[2];
+extern LightSettings old_graveyard_sceneLightSettings0x000070[8];
+extern CamData old_graveyard_sceneCollisionHeader0x0073C4_camDataList_00000120[1];
+extern u32 old_graveyard_sceneCollisionHeader0x0073C4_polygonTypes_00000128[];
+extern CollisionPoly old_graveyard_sceneCollisionHeader0x0073C4_polygons_00000148[];
+extern Vec3s old_graveyard_sceneCollisionHeader0x0073C4_vtx_00005D48[];
+extern CollisionHeader old_graveyard_sceneCollisionHeader0x0073C4;
+extern u64 old_graveyard_sceneTex_0073F0[];
+

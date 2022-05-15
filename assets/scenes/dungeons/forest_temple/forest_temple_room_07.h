@@ -1,0 +1,74 @@
+extern MeshHeader2 forest_temple_room_07MeshHeader0x0000D0;
+extern MeshEntry2 forest_temple_room_07MeshDListEntry0x0000DC[11];
+extern Gfx dlist0x014C18[];
+extern u64 forest_temple_room_07Tex_014CF0[];
+extern Gfx dlist0x010990[];
+extern u64 forest_temple_room_07Tex_010BC0[];
+extern u64 forest_temple_room_07Tex_011BC0[];
+extern Gfx dlist0x00F668[];
+extern u64 forest_temple_room_07Tex_00F9F0[];
+extern u64 forest_temple_room_07Tex_00FBF0[];
+extern Gfx dlist0x012EA0[];
+extern u64 forest_temple_room_07Tex_013088[];
+extern u64 forest_temple_room_07Tex_013888[];
+extern Gfx dlist0x000810[];
+extern u64 forest_temple_room_07Tex_000950[];
+extern Gfx dlist0x014990[];
+extern Gfx dlist0x002BF0[];
+extern u64 forest_temple_room_07Tex_0031A0[];
+extern u64 forest_temple_room_07Tex_0041A0[];
+extern u64 forest_temple_room_07Tex_0051A0[];
+extern u64 forest_temple_room_07Tex_0061A0[];
+extern Gfx dlist0x0070E0[];
+extern u64 forest_temple_room_07Tex_007408[];
+extern u64 forest_temple_room_07Tex_008408[];
+extern u64 forest_temple_room_07Tex_009408[];
+extern Gfx dlist0x00A348[];
+extern u64 forest_temple_room_07Tex_00A670[];
+extern u64 forest_temple_room_07Tex_00B670[];
+extern u64 forest_temple_room_07Tex_00C670[];
+extern Gfx dlist0x00D370[];
+extern Gfx dlist0x00DB30[];
+extern Gfx dlist0x00E5F8[];
+s16 forest_temple_room_07ObjectList0x000038[];
+extern ActorEntry forest_temple_room_07ActorList0x00004C[8];
+
+
+
+
+
+extern s16 forest_temple_room_07ObjectList0x000038[9];
+extern ActorEntry forest_temple_room_07ActorList0x00004C[8];
+extern MeshHeader2 forest_temple_room_07MeshHeader0x0000D0;
+extern MeshEntry2 forest_temple_room_07MeshDListEntry0x0000DC[11];
+extern Gfx forest_temple_room_07Dlist0x000810[];
+extern u64 forest_temple_room_07Tex_000950[];
+extern Gfx forest_temple_room_07Dlist0x002BF0[];
+extern u64 forest_temple_room_07Tex_0031A0[];
+extern u64 forest_temple_room_07Tex_0041A0[];
+extern u64 forest_temple_room_07Tex_0051A0[];
+extern u64 forest_temple_room_07Tex_0061A0[];
+extern Gfx forest_temple_room_07Dlist0x0070E0[];
+extern u64 forest_temple_room_07Tex_007408[];
+extern u64 forest_temple_room_07Tex_008408[];
+extern u64 forest_temple_room_07Tex_009408[];
+extern Gfx forest_temple_room_07Dlist0x00A348[];
+extern u64 forest_temple_room_07Tex_00A670[];
+extern u64 forest_temple_room_07Tex_00B670[];
+extern u64 forest_temple_room_07Tex_00C670[];
+extern Gfx forest_temple_room_07Dlist0x00D370[];
+extern Gfx forest_temple_room_07Dlist0x00DB30[];
+extern Gfx forest_temple_room_07Dlist0x00E5F8[];
+extern Gfx forest_temple_room_07Dlist0x00F668[];
+extern u64 forest_temple_room_07Tex_00F9F0[];
+extern u64 forest_temple_room_07Tex_00FBF0[];
+extern Gfx forest_temple_room_07Dlist0x010990[];
+extern u64 forest_temple_room_07Tex_010BC0[];
+extern u64 forest_temple_room_07Tex_011BC0[];
+extern Gfx forest_temple_room_07Dlist0x012EA0[];
+extern u64 forest_temple_room_07Tex_013088[];
+extern u64 forest_temple_room_07Tex_013888[];
+extern Gfx forest_temple_room_07Dlist0x014990[];
+extern Gfx forest_temple_room_07Dlist0x014C18[];
+extern u64 forest_temple_room_07Tex_014CF0[];
+

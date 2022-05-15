@@ -1,0 +1,6 @@
+extern u64 gLinkChildStaticHatDL_link_tunic_4_i8_i8[];
+extern Vtx gLinkChildStaticHatDL_gLinkChildSkel_mesh_001_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gLinkChildStaticHatDL_gLinkChildSkel_mesh_001_mesh_layer_Opaque_vtx_0[41];
+extern Gfx gLinkChildStaticHatDL_gLinkChildSkel_mesh_001_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gLinkChildStaticHatDL_hat_layerOpaque[];
+extern Gfx gLinkChildStaticHatDL[];

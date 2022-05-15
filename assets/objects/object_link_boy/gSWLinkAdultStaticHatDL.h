@@ -1,0 +1,6 @@
+extern u64 gSWLinkAdultStaticHatDL_link_tunic_4_i8_i8[];
+extern Vtx gSWLinkAdultStaticHatDL_mesh_001_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gSWLinkAdultStaticHatDL_mesh_001_mesh_layer_Opaque_vtx_0[54];
+extern Gfx gSWLinkAdultStaticHatDL_mesh_001_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gSWLinkAdultStaticHatDL_hat_layerOpaque[];
+extern Gfx gSWLinkAdultStaticHatDL[];

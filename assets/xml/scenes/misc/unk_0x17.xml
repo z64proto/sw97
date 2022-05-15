@@ -1,0 +1,8 @@
+<Root>
+	<File Name="unk_0x17_scene" Game="SW97">
+		<Scene Name="unk_0x17_scene"/>
+	</File>
+	<File Name="unk_0x17_room_00" Game="SW97">
+		<Room Name="unk_0x17_room_00"/>
+	</File>
+</Root>

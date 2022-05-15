@@ -1,0 +1,59 @@
+<Root>
+	<File Name="water_temple_scene" Game="SW97">
+		<Scene Name="water_temple_scene"/>
+	</File>
+	<File Name="water_temple_room_00" Game="SW97">
+		<Room Name="water_temple_room_00"/>
+	</File>
+	<File Name="water_temple_room_01" Game="SW97">
+		<Room Name="water_temple_room_01"/>
+	</File>
+	<File Name="water_temple_room_02" Game="SW97">
+		<Room Name="water_temple_room_02"/>
+	</File>
+	<File Name="water_temple_room_03" Game="SW97">
+		<Room Name="water_temple_room_03"/>
+	</File>
+	<File Name="water_temple_room_04" Game="SW97">
+		<Room Name="water_temple_room_04"/>
+	</File>
+	<File Name="water_temple_room_05" Game="SW97">
+		<Room Name="water_temple_room_05"/>
+	</File>
+	<File Name="water_temple_room_06" Game="SW97">
+		<Room Name="water_temple_room_06"/>
+	</File>
+	<File Name="water_temple_room_07" Game="SW97">
+		<Room Name="water_temple_room_07"/>
+	</File>
+	<File Name="water_temple_room_08" Game="SW97">
+		<Room Name="water_temple_room_08"/>
+	</File>
+	<File Name="water_temple_room_09" Game="SW97">
+		<Room Name="water_temple_room_09"/>
+	</File>
+	<File Name="water_temple_room_10" Game="SW97">
+		<Room Name="water_temple_room_10"/>
+	</File>
+	<File Name="water_temple_room_11" Game="SW97">
+		<Room Name="water_temple_room_11"/>
+	</File>
+	<File Name="water_temple_room_12" Game="SW97">
+		<Room Name="water_temple_room_12"/>
+	</File>
+	<File Name="water_temple_room_13" Game="SW97">
+		<Room Name="water_temple_room_13"/>
+	</File>
+	<File Name="water_temple_room_14" Game="SW97">
+		<Room Name="water_temple_room_14"/>
+	</File>
+	<File Name="water_temple_room_15" Game="SW97">
+		<Room Name="water_temple_room_15"/>
+	</File>
+	<File Name="water_temple_room_16" Game="SW97">
+		<Room Name="water_temple_room_16"/>
+	</File>
+	<File Name="water_temple_room_17" Game="SW97">
+		<Room Name="water_temple_room_17"/>
+	</File>
+</Root>

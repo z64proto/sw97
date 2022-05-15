@@ -1,0 +1,27 @@
+extern RomFile kokiri_forest_sceneRoomList0x0000B0[];
+extern EntranceEntry kokiri_forest_sceneEntranceList0x0000B8[];
+extern ActorEntry kokiri_forest_sceneStartPositionList0x000050[];
+extern u16 kokiri_forest_sceneExitList0x0000C4[];
+extern LightSettings kokiri_forest_sceneLightSettings0x0000D0[];
+
+
+
+
+
+extern ActorEntry kokiri_forest_sceneStartPositionList0x000050[];
+extern RomFile kokiri_forest_sceneRoomList0x0000B0[];
+extern EntranceEntry kokiri_forest_sceneEntranceList0x0000B8[6];
+extern u16 kokiri_forest_sceneExitList0x0000C4[6];
+extern LightSettings kokiri_forest_sceneLightSettings0x0000D0[8];
+extern Vec3s kokiri_forest_sceneCollisionHeader0x006090_camPosData_00000180[12];
+extern CamData kokiri_forest_sceneCollisionHeader0x006090_camDataList_000001C8[8];
+extern u32 kokiri_forest_sceneCollisionHeader0x006090_polygonTypes_00000208[];
+extern CollisionPoly kokiri_forest_sceneCollisionHeader0x006090_polygons_000002A0[];
+extern Vec3s kokiri_forest_sceneCollisionHeader0x006090_vtx_00004E00[];
+extern WaterBox kokiri_forest_sceneCollisionHeader0x006090_waterBoxes_00006084[];
+extern CollisionHeader kokiri_forest_sceneCollisionHeader0x006090;
+extern u64 kokiri_forest_sceneTex_0060C0[];
+extern u64 kokiri_forest_sceneTex_0068C0[];
+extern u64 kokiri_forest_sceneTex_0070C0[];
+extern u64 kokiri_forest_sceneTex_0078C0[];
+

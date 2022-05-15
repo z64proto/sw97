@@ -1,0 +1,39 @@
+CC		= @CC@
+LD		= @CC@
+INSTALL		= @INSTALL@
+CFLAGS		= -Wall -Wno-unused-result @CFLAGS@
+CPPFLAGS		=
+prefix 		= @prefix@
+exec_prefix 	= @exec_prefix@
+bindir		= @bindir@
+PROGNAME	= gzinject
+LDFLAGS		= -s @LDFLAGS@
+CFILES		= *.c
+SRCDIR		= src
+CSRC	   	:= $(foreach s,$(CFILES),$(wildcard $(SRCDIR)/$(s)))
+COBJ		= $(patsubst $(SRCDIR)/%,$(OBJDIR)/%.o,$(CSRC))
+LIBS		= 
+OBJDIR		= obj
+OUTDIR		= $(OBJDIR)
+
+.PHONY		: all install clean distclean
+
+all		:	$(PROGNAME)
+
+clean		:
+	rm -rf $(PROGNAME) obj
+
+distclean	:	clean
+	rm -f Makefile
+
+install		:	$(PROGNAME)
+	$(INSTALL) -p -D --target-directory=$(DESTDIR)$(bindir) $(PROGNAME)
+
+$(PROGNAME)	:	$(COBJ)
+	$(LD) $(LDFLAGS) $^ -o $@ $(LIBS) 
+
+$(OUTDIR)   	:
+	mkdir -p $@
+
+$(COBJ)	 	:	$(OBJDIR)/%.o: $(SRCDIR)/% | $(OBJDIR)
+	$(CC) -c $(CPPFLAGS) $(CFLAGS) $< -o $@

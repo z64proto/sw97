@@ -1,0 +1,8 @@
+<Root>
+	<File Name="pr_links_house_scene" Game="SW97">
+		<Scene Name="pr_links_house_scene"/>
+	</File>
+	<File Name="pr_links_house_room_00" Game="SW97">
+		<Room Name="pr_links_house_room_00"/>
+	</File>
+</Root>

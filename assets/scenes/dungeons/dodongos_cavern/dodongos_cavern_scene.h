@@ -1,0 +1,26 @@
+extern RomFile dodongos_cavern_sceneRoomList0x000148[];
+extern TransitionActorEntry dodongos_cavern_sceneTransitionActorList0x000078[];
+extern EntranceEntry dodongos_cavern_sceneEntranceList0x000198[];
+extern ActorEntry dodongos_cavern_sceneStartPositionList0x000058[];
+extern u16 dodongos_cavern_sceneExitList0x00019C[];
+extern LightSettings dodongos_cavern_sceneLightSettings0x0001A0[];
+
+
+
+
+
+extern ActorEntry dodongos_cavern_sceneStartPositionList0x000058[];
+extern TransitionActorEntry dodongos_cavern_sceneTransitionActorList0x000078[];
+extern RomFile dodongos_cavern_sceneRoomList0x000148[];
+extern EntranceEntry dodongos_cavern_sceneEntranceList0x000198[2];
+extern u16 dodongos_cavern_sceneExitList0x00019C[2];
+extern LightSettings dodongos_cavern_sceneLightSettings0x0001A0[8];
+extern Vec3s dodongos_cavern_sceneCollisionHeader0x00E38C_camPosData_00000250[3];
+extern CamData dodongos_cavern_sceneCollisionHeader0x00E38C_camDataList_00000264[9];
+extern u32 dodongos_cavern_sceneCollisionHeader0x00E38C_polygonTypes_000002AC[];
+extern CollisionPoly dodongos_cavern_sceneCollisionHeader0x00E38C_polygons_000003A4[];
+extern Vec3s dodongos_cavern_sceneCollisionHeader0x00E38C_vtx_0000B824[];
+extern CollisionHeader dodongos_cavern_sceneCollisionHeader0x00E38C;
+extern u64 dodongos_cavern_sceneTex_00E3C0[];
+extern u64 dodongos_cavern_sceneTex_00F3C0[];
+

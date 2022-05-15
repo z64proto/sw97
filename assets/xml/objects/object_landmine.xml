@@ -1,0 +1,7 @@
+<Root>
+    <File Name="object_landmine" Segment="6">
+        <DList Name="gLandmineSpikes" Offset="0x11C0"/>
+        <DList Name="gLandmineBase" Offset="0x1748"/>
+        <DList Name="gLandmineBomb" Offset="0x18B8"/>
+    </File>
+</Root>

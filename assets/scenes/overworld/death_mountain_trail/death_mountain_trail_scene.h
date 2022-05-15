@@ -1,0 +1,24 @@
+extern RomFile death_mountain_trail_sceneRoomList0x000090[];
+extern EntranceEntry death_mountain_trail_sceneEntranceList0x000098[];
+extern ActorEntry death_mountain_trail_sceneStartPositionList0x000050[];
+extern u16 death_mountain_trail_sceneExitList0x0000A0[];
+extern LightSettings death_mountain_trail_sceneLightSettings0x0000A8[];
+
+
+
+
+
+extern ActorEntry death_mountain_trail_sceneStartPositionList0x000050[];
+extern RomFile death_mountain_trail_sceneRoomList0x000090[];
+extern EntranceEntry death_mountain_trail_sceneEntranceList0x000098[4];
+extern u16 death_mountain_trail_sceneExitList0x0000A0[4];
+extern LightSettings death_mountain_trail_sceneLightSettings0x0000A8[4];
+extern Vec3s death_mountain_trail_sceneCollisionHeader0x002A14_camPosData_00000100[6];
+extern CamData death_mountain_trail_sceneCollisionHeader0x002A14_camDataList_00000114[5];
+extern u32 death_mountain_trail_sceneCollisionHeader0x002A14_polygonTypes_0000013C[];
+extern CollisionPoly death_mountain_trail_sceneCollisionHeader0x002A14_polygons_0000017C[];
+extern Vec3s death_mountain_trail_sceneCollisionHeader0x002A14_vtx_000022AC[];
+extern CollisionHeader death_mountain_trail_sceneCollisionHeader0x002A14;
+extern u64 death_mountain_trail_sceneTex_002A40[];
+extern u64 death_mountain_trail_sceneTex_003A40[];
+

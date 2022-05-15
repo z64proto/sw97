@@ -1,0 +1,24 @@
+extern RomFile old_sacred_forest_meadow_sceneRoomList0x000070[];
+extern EntranceEntry old_sacred_forest_meadow_sceneEntranceList0x000078[];
+extern ActorEntry old_sacred_forest_meadow_sceneStartPositionList0x000050[];
+extern u16 old_sacred_forest_meadow_sceneExitList0x00007C[];
+extern LightSettings old_sacred_forest_meadow_sceneLightSettings0x000080[];
+
+
+
+
+
+extern ActorEntry old_sacred_forest_meadow_sceneStartPositionList0x000050[];
+extern RomFile old_sacred_forest_meadow_sceneRoomList0x000070[];
+extern EntranceEntry old_sacred_forest_meadow_sceneEntranceList0x000078[2];
+extern u16 old_sacred_forest_meadow_sceneExitList0x00007C[2];
+extern LightSettings old_sacred_forest_meadow_sceneLightSettings0x000080[2];
+extern CamData old_sacred_forest_meadow_sceneCollisionHeader0x000D5C_camDataList_000000B0[1];
+extern u32 old_sacred_forest_meadow_sceneCollisionHeader0x000D5C_polygonTypes_000000B8[];
+extern CollisionPoly old_sacred_forest_meadow_sceneCollisionHeader0x000D5C_polygons_000000F8[];
+extern Vec3s old_sacred_forest_meadow_sceneCollisionHeader0x000D5C_vtx_00000B08[];
+extern CollisionHeader old_sacred_forest_meadow_sceneCollisionHeader0x000D5C;
+extern u64 old_sacred_forest_meadow_sceneTex_000D90[];
+extern u64 old_sacred_forest_meadow_sceneTex_001590[];
+extern u64 old_sacred_forest_meadow_sceneTex_002590[];
+

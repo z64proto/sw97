@@ -1,0 +1,8 @@
+<Root>
+	<File Name="old_lake_hylia_scene" Game="SW97">
+		<Scene Name="old_lake_hylia_scene"/>
+	</File>
+	<File Name="old_lake_hylia_room_00" Game="SW97">
+		<Room Name="old_lake_hylia_room_00"/>
+	</File>
+</Root>

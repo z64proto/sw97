@@ -1,0 +1,8 @@
+<Root>
+	<File Name="grottos_scene" Game="SW97">
+		<Scene Name="grottos_scene"/>
+	</File>
+	<File Name="grottos_room_00" Game="SW97">
+		<Room Name="grottos_room_00"/>
+	</File>
+</Root>

@@ -1,0 +1,8 @@
+<Root>
+     <File Name="nintendo_rogo_static" Segment="1">
+        <Texture Name="gN64LogoTextTex" OutName="n64_logo_text" Format="i8" Width="192" Height="32" Offset="0x0"/>
+        <Texture Name="gN64CubeSurface1Tex" OutName="cube_surface_1" Format="i8" Width="32" Height="32" Offset="0x1800"/>
+        <DList Name="gN64LogoCubeDL" Offset="0x2720"/>
+        <Texture Name="gN64CubeSurface2Tex" OutName="cube_surface_2" Format="i8" Width="32" Height="32" Offset="0x29C0"/>
+     </File>
+</Root>

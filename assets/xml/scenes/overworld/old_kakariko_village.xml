@@ -1,0 +1,8 @@
+<Root>
+	<File Name="old_kakariko_village_scene" Game="SW97">
+		<Scene Name="old_kakariko_village_scene"/>
+	</File>
+	<File Name="old_kakariko_village_room_00" Game="SW97">
+		<Room Name="old_kakariko_village_room_00"/>
+	</File>
+</Root>

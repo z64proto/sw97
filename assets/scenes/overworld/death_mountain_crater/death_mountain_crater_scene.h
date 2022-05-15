@@ -1,0 +1,21 @@
+extern RomFile death_mountain_crater_sceneRoomList0x000048[];
+extern EntranceEntry death_mountain_crater_sceneEntranceList0x000050[];
+extern ActorEntry death_mountain_crater_sceneStartPositionList0x000038[];
+extern LightSettings death_mountain_crater_sceneLightSettings0x000054[];
+
+
+
+
+
+extern ActorEntry death_mountain_crater_sceneStartPositionList0x000038[];
+extern RomFile death_mountain_crater_sceneRoomList0x000048[];
+extern EntranceEntry death_mountain_crater_sceneEntranceList0x000050[2];
+extern LightSettings death_mountain_crater_sceneLightSettings0x000054[4];
+extern CamData death_mountain_crater_sceneCollisionHeader0x003AA4_camDataList_000000B0[1];
+extern u32 death_mountain_crater_sceneCollisionHeader0x003AA4_polygonTypes_000000B8[];
+extern CollisionPoly death_mountain_crater_sceneCollisionHeader0x003AA4_polygons_000000C0[];
+extern Vec3s death_mountain_crater_sceneCollisionHeader0x003AA4_vtx_00002EE0[];
+extern CollisionHeader death_mountain_crater_sceneCollisionHeader0x003AA4;
+extern u64 death_mountain_crater_sceneTex_003AD0[];
+extern u64 death_mountain_crater_sceneTex_003ED0[];
+

@@ -1,0 +1,76 @@
+extern MeshHeader0 old_kakariko_village_room_00MeshHeader0x0002F0;
+extern MeshEntry0 old_kakariko_village_room_00MeshDListEntry0x0002FC[1];
+extern Gfx dlist0x0186D8[];
+extern Gfx dlist0x000F50[];
+extern u64 old_kakariko_village_room_00Tex_0015E8[];
+extern Gfx dlist0x002A28[];
+extern u64 old_kakariko_village_room_00Tex_0030C0[];
+extern Gfx dlist0x004500[];
+extern u64 old_kakariko_village_room_00Tex_004B98[];
+extern Gfx dlist0x006038[];
+extern u64 old_kakariko_village_room_00Tex_006720[];
+extern u64 old_kakariko_village_room_00Tex_006F20[];
+extern Gfx dlist0x008360[];
+extern u64 old_kakariko_village_room_00Tex_0089F8[];
+extern Gfx dlist0x009E38[];
+extern u64 old_kakariko_village_room_00Tex_00A4D0[];
+extern Gfx dlist0x00B950[];
+extern u64 old_kakariko_village_room_00Tex_00C038[];
+extern u64 old_kakariko_village_room_00Tex_00C838[];
+extern Gfx dlist0x00DC78[];
+extern u64 old_kakariko_village_room_00Tex_00E310[];
+extern Gfx dlist0x00F210[];
+extern u64 old_kakariko_village_room_00Tex_00F578[];
+extern Gfx dlist0x012648[];
+extern u64 old_kakariko_village_room_00Tex_013BB8[];
+extern u64 old_kakariko_village_room_00Tex_0143B8[];
+extern u64 old_kakariko_village_room_00Tex_014BB8[];
+extern u64 old_kakariko_village_room_00Tex_0153B8[];
+extern u64 old_kakariko_village_room_00Tex_015BB8[];
+extern u64 old_kakariko_village_room_00Tex_0163B8[];
+extern Gfx dlist0x016D78[];
+extern u64 old_kakariko_village_room_00Tex_016ED8[];
+extern u64 old_kakariko_village_room_00Tex_0176D8[];
+s16 old_kakariko_village_room_00ObjectList0x000048[];
+extern ActorEntry old_kakariko_village_room_00ActorList0x000064[0x28];
+
+
+
+
+
+extern s16 old_kakariko_village_room_00ObjectList0x000048[13];
+extern ActorEntry old_kakariko_village_room_00ActorList0x000064[0x28];
+extern MeshHeader0 old_kakariko_village_room_00MeshHeader0x0002F0;
+extern MeshEntry0 old_kakariko_village_room_00MeshDListEntry0x0002FC[1];
+extern Gfx old_kakariko_village_room_00Dlist0x000F50[];
+extern u64 old_kakariko_village_room_00Tex_0015E8[];
+extern Gfx old_kakariko_village_room_00Dlist0x002A28[];
+extern u64 old_kakariko_village_room_00Tex_0030C0[];
+extern Gfx old_kakariko_village_room_00Dlist0x004500[];
+extern u64 old_kakariko_village_room_00Tex_004B98[];
+extern Gfx old_kakariko_village_room_00Dlist0x006038[];
+extern u64 old_kakariko_village_room_00Tex_006720[];
+extern u64 old_kakariko_village_room_00Tex_006F20[];
+extern Gfx old_kakariko_village_room_00Dlist0x008360[];
+extern u64 old_kakariko_village_room_00Tex_0089F8[];
+extern Gfx old_kakariko_village_room_00Dlist0x009E38[];
+extern u64 old_kakariko_village_room_00Tex_00A4D0[];
+extern Gfx old_kakariko_village_room_00Dlist0x00B950[];
+extern u64 old_kakariko_village_room_00Tex_00C038[];
+extern u64 old_kakariko_village_room_00Tex_00C838[];
+extern Gfx old_kakariko_village_room_00Dlist0x00DC78[];
+extern u64 old_kakariko_village_room_00Tex_00E310[];
+extern Gfx old_kakariko_village_room_00Dlist0x00F210[];
+extern u64 old_kakariko_village_room_00Tex_00F578[];
+extern Gfx old_kakariko_village_room_00Dlist0x012648[];
+extern u64 old_kakariko_village_room_00Tex_013BB8[];
+extern u64 old_kakariko_village_room_00Tex_0143B8[];
+extern u64 old_kakariko_village_room_00Tex_014BB8[];
+extern u64 old_kakariko_village_room_00Tex_0153B8[];
+extern u64 old_kakariko_village_room_00Tex_015BB8[];
+extern u64 old_kakariko_village_room_00Tex_0163B8[];
+extern Gfx old_kakariko_village_room_00Dlist0x016D78[];
+extern u64 old_kakariko_village_room_00Tex_016ED8[];
+extern u64 old_kakariko_village_room_00Tex_0176D8[];
+extern Gfx old_kakariko_village_room_00Dlist0x0186D8[];
+

@@ -1,0 +1,76 @@
+extern MeshHeader0 water_temple_room_06MeshHeader0x000050;
+extern MeshEntry0 water_temple_room_06MeshDListEntry0x00005C[1];
+extern Gfx dlist0x011390[];
+extern Gfx dlist0x000A00[];
+extern u64 water_temple_room_06Tex_000DB8[];
+extern u64 water_temple_room_06Tex_0015B8[];
+extern u64 water_temple_room_06Tex_001DB8[];
+extern u64 water_temple_room_06Tex_0025B8[];
+extern u64 water_temple_room_06Tex_002DB8[];
+extern u64 water_temple_room_06Tex_0035B8[];
+extern Gfx dlist0x0046F8[];
+extern u64 water_temple_room_06Tex_004B18[];
+extern u64 water_temple_room_06Tex_005B18[];
+extern u64 water_temple_room_06Tex_006318[];
+extern u64 water_temple_room_06Tex_006B18[];
+extern u64 water_temple_room_06Tex_007318[];
+extern u64 water_temple_room_06Tex_007B18[];
+extern u64 water_temple_room_06Tex_008318[];
+extern u64 water_temple_room_06Tex_008B18[];
+extern Gfx dlist0x009A08[];
+extern u64 water_temple_room_06Tex_009DC8[];
+extern u64 water_temple_room_06Tex_00ADC8[];
+extern u64 water_temple_room_06Tex_00B5C8[];
+extern u64 water_temple_room_06Tex_00BDC8[];
+extern u64 water_temple_room_06Tex_00C5C8[];
+extern u64 water_temple_room_06Tex_00CDC8[];
+extern u64 water_temple_room_06Tex_00D5C8[];
+extern u64 water_temple_room_06Tex_00DDC8[];
+extern Gfx dlist0x00EBC8[];
+extern u64 water_temple_room_06Tex_00EDE0[];
+extern u64 water_temple_room_06Tex_00F5E0[];
+extern u64 water_temple_room_06Tex_00FDE0[];
+extern Gfx dlist0x011260[];
+s16 water_temple_room_06ObjectList0x000038[];
+extern ActorEntry water_temple_room_06ActorList0x00003C[1];
+
+
+
+
+
+extern s16 water_temple_room_06ObjectList0x000038[1];
+extern ActorEntry water_temple_room_06ActorList0x00003C[1];
+extern MeshHeader0 water_temple_room_06MeshHeader0x000050;
+extern MeshEntry0 water_temple_room_06MeshDListEntry0x00005C[1];
+extern Gfx water_temple_room_06Dlist0x000A00[];
+extern u64 water_temple_room_06Tex_000DB8[];
+extern u64 water_temple_room_06Tex_0015B8[];
+extern u64 water_temple_room_06Tex_001DB8[];
+extern u64 water_temple_room_06Tex_0025B8[];
+extern u64 water_temple_room_06Tex_002DB8[];
+extern u64 water_temple_room_06Tex_0035B8[];
+extern Gfx water_temple_room_06Dlist0x0046F8[];
+extern u64 water_temple_room_06Tex_004B18[];
+extern u64 water_temple_room_06Tex_005B18[];
+extern u64 water_temple_room_06Tex_006318[];
+extern u64 water_temple_room_06Tex_006B18[];
+extern u64 water_temple_room_06Tex_007318[];
+extern u64 water_temple_room_06Tex_007B18[];
+extern u64 water_temple_room_06Tex_008318[];
+extern u64 water_temple_room_06Tex_008B18[];
+extern Gfx water_temple_room_06Dlist0x009A08[];
+extern u64 water_temple_room_06Tex_009DC8[];
+extern u64 water_temple_room_06Tex_00ADC8[];
+extern u64 water_temple_room_06Tex_00B5C8[];
+extern u64 water_temple_room_06Tex_00BDC8[];
+extern u64 water_temple_room_06Tex_00C5C8[];
+extern u64 water_temple_room_06Tex_00CDC8[];
+extern u64 water_temple_room_06Tex_00D5C8[];
+extern u64 water_temple_room_06Tex_00DDC8[];
+extern Gfx water_temple_room_06Dlist0x00EBC8[];
+extern u64 water_temple_room_06Tex_00EDE0[];
+extern u64 water_temple_room_06Tex_00F5E0[];
+extern u64 water_temple_room_06Tex_00FDE0[];
+extern Gfx water_temple_room_06Dlist0x011260[];
+extern Gfx water_temple_room_06Dlist0x011390[];
+

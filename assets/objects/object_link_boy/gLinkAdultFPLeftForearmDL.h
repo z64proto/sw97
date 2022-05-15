@@ -1,0 +1,12 @@
+extern u64 gLinkAdultFPLeftForearmDL_footA_CI01_txt_ci8_ci8[];
+extern u64 gLinkAdultFPLeftForearmDL_footA_CI01_txt_ci8_ci8_pal_rgba16[];
+extern u64 gLinkAdultFPLeftForearmDL_SW97_Gauntlet_ci8[];
+extern u64 gLinkAdultFPLeftForearmDL_SW97_Gauntlet_ci8_pal_rgba16[];
+extern Vtx gLinkAdultFPLeftForearmDL_gLinkAdultFPLeftForearmDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gLinkAdultFPLeftForearmDL_gLinkAdultFPLeftForearmDL_mesh_layer_Opaque_vtx_0[25];
+extern Gfx gLinkAdultFPLeftForearmDL_gLinkAdultFPLeftForearmDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gLinkAdultFPLeftForearmDL_gLinkAdultFPLeftForearmDL_mesh_layer_Opaque_vtx_1[61];
+extern Gfx gLinkAdultFPLeftForearmDL_gLinkAdultFPLeftForearmDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gLinkAdultFPLeftForearmDL_ArmShirt_layerOpaque[];
+extern Gfx mat_gLinkAdultFPLeftForearmDL_FPGauntlet_layerOpaque[];
+extern Gfx gLinkAdultFPLeftForearmDL[];
